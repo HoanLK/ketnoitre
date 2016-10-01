@@ -239,30 +239,6 @@ body {
                         padding: 0;
                     }
 
-                    /*Ô thông tin sản phẩm*/
-                    .index > .typical-project > .content > .row-content > a > .box-info {
-                        background: rgba(0, 0, 0, .9);
-                        width: 29em;
-                        height: 10em;
-                        display: none;
-                        position: absolute;
-                        left: 0;
-                        bottom: 0;
-                        padding-top: 1.5em;
-                    }
-
-                        .index > .typical-project > .content > .row-content > a > .box-info > .line-1 {
-                            font-family: Roboto-Bold;
-                            font-size: 2em;
-                            color: rgb(0, 120, 174);
-                        }
-
-                        .index > .typical-project > .content > .row-content > a > .box-info > .line-2 {
-                            font-family: Roboto-Light;
-                            font-size: 1.3em;
-                            color: rgb(255, 255, 255);
-                        }
-
         /*Phần đăng ký làm web*/
         .index > .typical-project > .sign-up-web {
             background: rgba(255,255,255,.03);
@@ -1604,6 +1580,7 @@ body {
             font-size: 2em;
             color: orange;
             margin-top: -7.5em;
+            width: 40%;
         }
 
     /*Dịch vụ của chúng tôi*/

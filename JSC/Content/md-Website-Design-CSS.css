@@ -73,16 +73,17 @@
         }
 
             .website-design > .content > div > .row-title {
-                text-align: center;
-                margin: 0;
+                margin: 0 !important;
                 width: 90%;
                 left: 5%;
+                padding: 10% 0% 0% 0%;
             }
 
                 .website-design > .content > div > .row-title > .title {
                     font-family: Roboto-Black;
                     font-size: 180%;
                     color: rgb(0, 120, 174);
+                    text-align: center;
                 }
 
                 .website-design > .content > div > .row-title > .detail {
