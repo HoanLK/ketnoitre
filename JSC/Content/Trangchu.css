@@ -671,6 +671,8 @@ body {
             border-radius: 0 5px 5px 0;
             padding: 0em 0em 0.5em 0em;
             margin: 3em 0em;
+            width: 78%;
+            left: 12%;
         }
 
             .index > .subscribe > .content::before {
@@ -769,11 +771,12 @@ body {
 
         .index > .map-address > .content {
             padding: 2em 0em 1.5em 0em;
-            margin: 3em 0em;
             border: 1px solid rgba(86,207,255,.3);
             border-left: none;
             border-radius: 0 5px 5px 0;
-            width: 70em;
+            width: 80%;
+            left: 10%;
+            margin: 3em 0em;
         }
 
             .index > .map-address > .content::before {

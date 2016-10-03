@@ -5,19 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - Kết nối trẻ</title>
     @Styles.Render("~/Content/css")
-    <link href="~/Content/md-about-us.css" rel="stylesheet" />
-    <link href="~/Content/md-design-software.css" rel="stylesheet" />
-    <link href="~/Content/md-header-footer.css" rel="stylesheet" />
-    <link href="~/Content/md-index.css" rel="stylesheet" />
-    <link href="~/Content/md-marketing-online.css" rel="stylesheet" />
-    <link href="~/Content/md-other-services.css" rel="stylesheet" />
-    <link href="~/Content/md-service.css" rel="stylesheet" />
-    <link href="~/Content/md-Services-Dichvukhac.css" rel="stylesheet" />
-    <link href="~/Content/md-Services-Marketingonine.css" rel="stylesheet" />
-    <link href="~/Content/md-Services-Thietkephanmem.css" rel="stylesheet" />
-    <link href="~/Content/md-Services-Thietkewebsite.css" rel="stylesheet" />
-    <link href="~/Content/md-Website-Design-CSS.css" rel="stylesheet" />
-    <link href="~/Content/xs-header-footer.css" rel="stylesheet" />
+    <link href="~/Content/Header-footer.css" rel="stylesheet" />
+    <link href="~/Content/Trangchu.css" rel="stylesheet" />
+    <link href="~/Content/Dichvu.css" rel="stylesheet" />
+    <link href="~/Content/Gioithieu.css" rel="stylesheet" />
+    <link href="~/Content/Dichvu-Thietkewebsite.css" rel="stylesheet" />
+    <link href="~/Content/Dichvu-Thietkephanmem.css" rel="stylesheet" />
+    <link href="~/Content/Dichvu-Marketingonline.css" rel="stylesheet" />
+    <link href="~/Content/Dichvu-Dichvukhac.css" rel="stylesheet" />
+    <link href="~/Content/Thietkewebsite-Trangcon.css" rel="stylesheet" />
+    <link href="~/Content/Thietkephanmem-Trangcon.css" rel="stylesheet" />
+    <link href="~/Content/Marketingonline-Trangcon.css" rel="stylesheet" />
+    <link href="~/Content/Dichvukhac-Trangcon.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     @Scripts.Render("~/bundles/modernizr")
@@ -63,7 +62,7 @@
                                 <li class="active"><a href="@Url.Action("Index","Home")">Trang chủ</a></li>
                                 <li class="dropdown">
                                     <a class="dropdown-toggle" href="@Url.Action("Service","Home")">Dịch vụ</a>
-                                    <ul class="menu-2-sub dropdown-menu">
+                                    <ul class="menu-2-sub dropdown-menu hidden-xs hidden-sm">
                                         <li>
                                             <a href="@Url.Action("SvThietkewebsite","Home")">Thiết kế website</a>
                                             <ul class="menu-3 hidden-xs hidden-sm">
@@ -145,10 +144,8 @@
         </ul>
     </footer>
 
-    @Scripts.Render("~/bundles/jquery")
-    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
-    @Scripts.Render("~/bundles/bootstrap")
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
     <script src="~/Scripts/Front/home.js"></script>
-    @RenderSection("scripts", required: false)
 </body>
 </html>

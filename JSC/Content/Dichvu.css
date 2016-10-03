@@ -81,7 +81,7 @@
                 .service > .menu > ul > li:hover > ul {
                     display: block;
                     position: absolute;
-                    z-service: 20;
+                    z-index: 20;
                     transition: all .3s linear;
                 }
 
