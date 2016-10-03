@@ -92,7 +92,7 @@ body {
             width: 100%;
             height: 10em;
             background: linear-gradient(to bottom,rgba(255,255,255,.3) 0,rgba(255,255,255,1) 63%,rgba(255,255,255,1) 100%);
-            padding: 4em 10em 0em 0em;
+            padding: 4em 10em 0em 8.5em;
             margin-top: -5em;
             border-top: 1px solid rgba(0,0,0,.1);
             box-shadow: inset 0 1px #fff;
@@ -114,6 +114,7 @@ body {
             color: orange;
             margin-top: -7.5em;
             width: 40%;
+            padding: 0;
         }
 
     /*Dịch vụ của chúng tôi*/

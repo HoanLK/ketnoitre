@@ -2,860 +2,6 @@
     padding: 0 !important;
 }
 
-/*Giao diện cho màn hình điện thoại*/
-@media (max-width: 767px) {
-
-    /* Banner */
-    .other-services > .banner {
-        padding: 0% 5% 10% 5%;
-        text-align: center;
-    }
-
-        .other-services > .banner > div {
-            width: 100%;
-        }
-
-            .other-services > .banner > div > .line-1 {
-                font-family: Roboto-Black;
-                font-size: 300%;
-                color: rgb(0, 120, 174);
-                text-transform: uppercase;
-            }
-
-            .other-services > .banner > div > .line-2 {
-                font-family: Roboto-Light;
-                font-size: 150%;
-                color: rgb(135, 138, 140);
-                text-align: left;
-            }
-
-            .other-services > .banner > div > a {
-                font-family: Roboto-Black;
-                font-size: 150%;
-                color: white;
-                text-align: center;
-                display: block;
-                padding: 2% 10%;
-                text-shadow: 0 -1px 0 rgb(68, 117, 35);
-                border-radius: 2em;
-                background: linear-gradient(to bottom,rgb(41, 207, 19) 0,rgb(51, 165, 36) 100%) 0 0/100% 100%;
-                text-decoration: none;
-                width: 60%;
-                left: 20%;
-                right: 20%;
-                margin: 10% 0%;
-            }
-
-            .other-services > .banner > div > img {
-                width: 90%;
-                left: 20%;
-                right: 20%;
-            }
-
-    /* Nội dung trang */
-    .other-services > .content {
-        background: url(../images/Services/Thietkewebsite/content-bg.png);
-        padding: 5% 0% 25% 0%;
-        box-shadow: 0 3px 3px rgba(132,136,138,.3);
-        text-align: center;
-    }
-
-        .other-services > .content > .detail {
-            padding: 5% 5% 5% 5%;
-            border-bottom: solid 1px rgb(211, 211, 211);
-        }
-
-            .other-services > .content > .detail > .icon {
-                padding: 0;
-            }
-
-                .other-services > .content > .detail > .icon > img {
-                    width: 10em;
-                    height: 10em;
-                }
-
-            .other-services > .content > .detail > div {
-                padding: 2em 1em 0em 1em;
-                text-align: center;
-            }
-
-                .other-services > .content > .detail > div > a {
-                    font-family: Roboto-Bold;
-                    font-size: 2em;
-                    color: rgb(0, 120, 174);
-                    text-decoration: none;
-                    margin: 0em 0em 2em 0em;
-                }
-
-                .other-services > .content > .detail > div > p {
-                    font-family: Roboto-Light;
-                    font-size: 1.5em;
-                    color: rgb(90, 96, 99);
-                    line-height: 1.5;
-                    text-align: justify;
-                }
-
-            .other-services > .content > .detail > .more {
-                font-family: Roboto-Bold;
-                font-size: 200%;
-                color: rgb(0, 157, 220);
-                text-decoration: none;
-                width: 60%;
-                left: 20%;
-                right: 20%;
-                padding: 0;
-            }
-
-                .other-services > .content > .detail > .more:after {
-                    content: "»";
-                    font-size: 150%;
-                    position: relative;
-                    left: 0.2em;
-                    top: 0.06em;
-                }
-
-    /* Liên hệ với chúng tôi */
-    .other-services > .call-us {
-        z-index: 10;
-        margin-top: -17%;
-    }
-
-        .other-services > .call-us > .box {
-            background: linear-gradient(to bottom,rgba(0,131,188,1) 0,rgba(0,120,174,1) 47%,rgba(0,120,174,1) 100%);
-            text-align: center;
-            border-radius: 0.5em;
-            padding: 1em 0em 1em 0em;
-            width: 90%;
-            left: 5%;
-            right: 5%;
-        }
-
-            .other-services > .call-us > .box > p {
-                font-family: Roboto-Light;
-                font-size: 180%;
-                color: rgb(255, 255, 255);
-            }
-
-            .other-services > .call-us > .box > a {
-                font-family: Roboto-Black;
-                font-size: 150%;
-                color: rgb(255, 255, 255);
-                padding: 5px 40px;
-                text-shadow: 0 -1px 0 #447523;
-                border-radius: 2em;
-                background: linear-gradient(to bottom,rgb(41, 207, 19) 0,rgb(51, 165, 36) 100%) 0 0/100% 100%;
-                width: 60%;
-                left: 20%;
-                right: 20%;
-                text-decoration: none;
-            }
-
-    /* Trả lời câu hỏi */
-    .other-services > .quest {
-        font-family: Roboto-Regular;
-        text-align: justify;
-        margin-top: 10%;
-        width: 90%;
-        left: 5%;
-        right: 5%;
-    }
-
-        .other-services > .quest > .title {
-            text-align: center;
-            text-transform: uppercase;
-            margin-bottom: 1em;
-        }
-
-            .other-services > .quest > .title > .line-1 {
-                font-family: Roboto-Light;
-                font-size: 200%;
-                color: rgb(0, 120, 174);
-                padding: 0;
-                margin: 0;
-            }
-
-            .other-services > .quest > .title > .line-2 {
-                font-family: Roboto-Bold;
-                font-size: 220%;
-                color: rgb(0, 120, 174);
-                padding: 0;
-            }
-
-        /* Cột 1 */
-        .other-services > .quest > .colum-1 {
-            padding: 0;
-        }
-
-            .other-services > .quest > .colum-1 > .title {
-                font-weight: bold;
-                font-size: 145%;
-                color: rgb(0, 120, 174);
-                text-indent: 1em;
-            }
-
-            .other-services > .quest > .colum-1 > .detail {
-                text-indent: 2.5em;
-                font-size: 110%;
-                line-height: 160%;
-            }
-
-        /* Cột 2*/
-        .other-services > .quest > .colum-2 {
-            padding: 0;
-        }
-
-            .other-services > .quest > .colum-2 > .title {
-                font-weight: bold;
-                font-size: 145%;
-                color: rgb(0, 120, 174);
-                text-indent: 1em;
-            }
-
-            .other-services > .quest > .colum-2 > .detail {
-                text-indent: 2.5em;
-                font-size: 110%;
-                line-height: 160%;
-            }
-
-    /* Nhận tin mới */
-    .other-services > .news {
-        z-index: 10;
-        margin: 2em 0em -8em 0em;
-    }
-
-        .other-services > .news > .box {
-            background: linear-gradient(to bottom,rgba(0,131,188,1) 0,rgba(0,120,174,1) 47%,rgba(0,120,174,1) 100%);
-            text-align: center;
-            border-radius: 0.3em;
-            width: 90%;
-            left: 5%;
-            right: 5%;
-            padding: 2em 0em 1em 0em;
-        }
-
-            .other-services > .news > .box > p {
-                font-family: Roboto-Light;
-                font-size: 2em;
-                color: rgb(255, 255, 255);
-            }
-
-                .other-services > .news > .box > p > span {
-                    font-family: Roboto-Bold;
-                }
-
-            .other-services > .news > .box > a {
-                font-family: Roboto-Black;
-                font-size: 150%;
-                color: rgb(255, 255, 255);
-                padding: 3% 5%;
-                text-shadow: 0 -1px 0 #447523;
-                border-radius: 2em;
-                background: linear-gradient(to bottom,rgb(41, 207, 19) 0,rgb(51, 165, 36) 100%) 0 0/100% 100%;
-                width: 60%;
-                text-decoration: none;
-                left: 20%;
-                right: 20%;
-            }
-
-    /* Thông tin chúng tôi */
-    .other-services > .info {
-        background: url(../images/Services/Thietkewebsite/info-bg.png);
-        padding: 10em 0em 5em 0em;
-    }
-
-        .other-services > .info > div {
-            padding: 0;
-        }
-
-            /* Địa chỉ */
-            .other-services > .info > div > .address {
-                background-color: rgba(0,28,54,.3);
-                border: 1px solid rgb(0, 148, 210);
-                border-radius: 0.3em;
-                padding: 1em;
-                margin: 0em 0em 4em 0em;
-                width: 90%;
-                left: 5%;
-                right: 5%;
-            }
-
-                .other-services > .info > div > .address > img {
-                    padding: 0;
-                    width: 100%;
-                    height: 50%;
-                }
-
-                .other-services > .info > div > .address > p {
-                    font-family: Roboto-Light;
-                    font-size: 130%;
-                    color: rgb(184, 224, 241);
-                    text-transform: uppercase;
-                    text-align: center;
-                    padding: 10% 10%;
-                }
-
-                    .other-services > .info > div > .address > p > span {
-                        font-family: Roboto-Bold;
-                        font-size: 150%;
-                        color: rgb(255, 255, 255);
-                    }
-
-                .other-services > .info > div > .address > a {
-                    background: rgb(0, 120, 174);
-                    font-family: Roboto-Bold;
-                    font-size: 150%;
-                    color: rgb(255, 255, 255);
-                    text-transform: uppercase;
-                    padding: 1% 10%;
-                    border-radius: 4px;
-                    text-shadow: 0 -1px 0 rgb(0, 0, 0);
-                    display: inline-block;
-                    border: 1px solid #008ece;
-                    box-shadow: inset 0 -1px 0 #004664,-1px -1px 0 #004664;
-                    text-decoration: none;
-                    position: absolute;
-                    left: 10%;
-                    right: 10%;
-                    bottom: -6%;
-                    text-align: center;
-                }
-
-                    .other-services > .info > div > .address > a:after {
-                        font-family: Roboto-Black;
-                        font-size: 170%;
-                        padding-left: 5%;
-                        content: "\bb";
-                    }
-
-            /* Đăng ký nhận lời khuyên */
-            .other-services > .info > div > .advice {
-                width: 90%;
-                left: 5%;
-                right: 5%;
-                margin: 0em 0em 4em 0em;
-            }
-
-                .other-services > .info > div > .advice > p {
-                    background: url(../images/Services/Thietkewebsite/info-advice-bg.png);
-                    border: 1px solid rgb(31, 172, 229);
-                    border-radius: 0.5em;
-                    box-shadow: 0 1px 0 rgb(0,0,0);
-                    text-align: center;
-                    font-family: Roboto-Light;
-                    font-size: 1.2em;
-                    color: rgb(255, 255, 255);
-                    text-shadow: 0 -1px 0 rgb(0, 0, 0);
-                    padding: 1em 1em;
-                }
-
-                    .other-services > .info > div > .advice > p > span {
-                        font-family: Roboto-Black;
-                        font-size: 1.5em;
-                        text-shadow: 0 -1px 0 rgb(0, 0, 0);
-                    }
-
-                .other-services > .info > div > .advice > form {
-                }
-
-                    .other-services > .info > div > .advice > form > input {
-                        font-size: 1.3em;
-                        border-radius: 3em;
-                        padding: 0.5em;
-                        margin: 0.5em 0em 1em 0em;
-                    }
-
-                    .other-services > .info > div > .advice > form > a {
-                        font-family: Roboto-Black;
-                        font-size: 1.5em;
-                        color: rgb(255, 255, 255);
-                        padding: 5px 44px;
-                        text-shadow: 0 -1px 0 #447523;
-                        border-radius: 2em;
-                        background: linear-gradient(to bottom,rgb(41, 207, 19) 0,rgb(51, 165, 36) 100%) 0 0/100% 100%;
-                        width: 9em;
-                        text-decoration: none;
-                        text-align: center;
-                        left: 20%;
-                        right: 20%;
-                    }
-
-            /* Đào tạo */
-            .other-services > .info > div > .train {
-                background-color: rgba(0,28,54,.3);
-                border: 1px solid rgb(0, 148, 210);
-                border-radius: 4px;
-                text-align: center;
-                width: 90%;
-                left: 5%;
-                right: 5%;
-                height: 21em;
-                margin: 0;
-            }
-
-                .other-services > .info > div > .train > img {
-                    z-index: 10;
-                    margin-top: -2.5em;
-                }
-
-                .other-services > .info > div > .train > p {
-                    font-family: Roboto-Light;
-                    font-size: 1.5em;
-                    line-height: 1.7em;
-                    color: rgb(184, 224, 241);
-                }
-
-                .other-services > .info > div > .train > a {
-                    background: rgb(0, 120, 174);
-                    font-family: Roboto-Bold;
-                    font-size: 1.2em;
-                    color: rgb(255, 255, 255);
-                    text-transform: uppercase;
-                    padding: 3px 28px 3px;
-                    border-radius: 4px;
-                    text-shadow: 0 -1px 0 rgb(0, 0, 0);
-                    display: inline-block;
-                    border: 1px solid #008ece;
-                    box-shadow: inset 0 -1px 0 #004664,-1px -1px 0 #004664;
-                    text-decoration: none;
-                    position: absolute;
-                    left: 10%;
-                    right: 10%;
-                    bottom: -1.2em;
-                }
-
-                    .other-services > .info > div > .train > a:after {
-                        font-family: Roboto-Black;
-                        font-size: 1.5em;
-                        padding-left: 8px;
-                        vertical-align: -2px;
-                        content: "\bb";
-                    }
-}
-
-/*Giap diện cho màn hình tablet*/
-@media (min-width: 768px) and (max-width: 991px) {
-    /* Banner */
-    .other-services > .banner {
-        padding: 0% 5% 10% 5%;
-    }
-
-        .other-services > .banner > div {
-            width: 100%;
-        }
-
-            .other-services > .banner > div > .line-1 {
-                font-family: Roboto-Black;
-                font-size: 445%;
-                color: rgb(0, 120, 174);
-                text-transform: uppercase;
-            }
-
-            .other-services > .banner > div > .line-2 {
-                font-family: Roboto-Light;
-                font-size: 200%;
-                color: rgb(135, 138, 140);
-                text-align: left;
-            }
-
-            .other-services > .banner > div > a {
-                font-family: Roboto-Black;
-                font-size: 190%;
-                color: white;
-                text-align: center;
-                display: block;
-                padding: 1% 5%;
-                text-shadow: 0 -1px 0 rgb(68, 117, 35);
-                border-radius: 2em;
-                background: linear-gradient(to bottom,rgb(41, 207, 19) 0,rgb(51, 165, 36) 100%) 0 0/100% 100%;
-                text-decoration: none;
-                width: 40%;
-                margin: 2% 0% 10% 0%;
-            }
-
-            .other-services > .banner > img {
-                width: 100%;
-            }
-
-    /* Nội dung trang */
-    .other-services > .content {
-        background: url(../images/Services/Thietkewebsite/content-bg.png);
-        padding: 5% 0% 25% 0%;
-        box-shadow: 0 3px 3px rgba(132,136,138,.3);
-        text-align: center;
-    }
-
-        .other-services > .content > .detail {
-            padding: 5% 5% 5% 5%;
-        }
-
-            .other-services > .content > .detail > .icon {
-                padding: 0;
-            }
-
-                .other-services > .content > .detail > .icon > img {
-                    width: 50%;
-                    height: 50%;
-                }
-
-            .other-services > .content > .detail > div {
-                text-align: center;
-                margin-top: 3%;
-            }
-
-                .other-services > .content > .detail > div > a {
-                    font-family: Roboto-Bold;
-                    font-size: 400%;
-                    color: rgb(0, 120, 174);
-                    text-decoration: none;
-                }
-
-                .other-services > .content > .detail > div > p {
-                    font-family: Roboto-Light;
-                    font-size: 200%;
-                    color: rgb(90, 96, 99);
-                    line-height: 1.5;
-                    text-align: justify;
-                }
-
-            .other-services > .content > .detail > .more {
-                font-family: Roboto-Bold;
-                font-size: 300%;
-                color: rgb(0, 157, 220);
-                text-decoration: none;
-                width: 60%;
-                left: 20%;
-                right: 20%;
-                padding: 0;
-            }
-
-                .other-services > .content > .detail > .more:after {
-                    content: "»";
-                    font-size: 150%;
-                    position: relative;
-                    left: 0.2em;
-                    top: 0.08em;
-                }
-
-    /* Liên hệ với chúng tôi */
-    .other-services > .call-us {
-        z-index: 10;
-        margin-top: -15%;
-    }
-
-        .other-services > .call-us > .box {
-            background: linear-gradient(to bottom,rgba(0,131,188,1) 0,rgba(0,120,174,1) 47%,rgba(0,120,174,1) 100%);
-            text-align: center;
-            border-radius: 0.5em;
-            padding: 3% 0% 5% 0%;
-            width: 90%;
-            left: 5%;
-            right: 5%;
-        }
-
-            .other-services > .call-us > .box > p {
-                font-family: Roboto-Light;
-                font-size: 300%;
-                color: rgb(255, 255, 255);
-            }
-
-            .other-services > .call-us > .box > a {
-                font-family: Roboto-Black;
-                font-size: 250%;
-                color: rgb(255, 255, 255);
-                padding: 5px 40px;
-                text-shadow: 0 -1px 0 #447523;
-                border-radius: 2em;
-                background: linear-gradient(to bottom,rgb(41, 207, 19) 0,rgb(51, 165, 36) 100%) 0 0/100% 100%;
-                width: 60%;
-                left: 20%;
-                right: 20%;
-                text-decoration: none;
-            }
-
-    /* Trả lời câu hỏi */
-    .other-services > .quest {
-        font-family: Roboto-Regular;
-        text-align: justify;
-        margin-top: 7%;
-        width: 90%;
-        left: 5%;
-        right: 5%;
-    }
-
-        .other-services > .quest > .title {
-            text-align: center;
-            text-transform: uppercase;
-            margin-bottom: 1em;
-        }
-
-            .other-services > .quest > .title > .line-1 {
-                font-family: Roboto-Light;
-                font-size: 350%;
-                color: rgb(0, 120, 174);
-                padding: 0;
-                margin: 0;
-            }
-
-            .other-services > .quest > .title > .line-2 {
-                font-family: Roboto-Bold;
-                font-size: 400%;
-                color: rgb(0, 120, 174);
-                padding: 0;
-            }
-
-        /* Cột 1 */
-        .other-services > .quest > .colum-1 {
-            padding: 0;
-        }
-
-            .other-services > .quest > .colum-1 > .title {
-                font-weight: bold;
-                font-size: 220%;
-                color: rgb(0, 120, 174);
-            }
-
-            .other-services > .quest > .colum-1 > .detail {
-                text-indent: 2.5em;
-                font-size: 180%;
-                line-height: 160%;
-            }
-
-        /* Cột 2*/
-        .other-services > .quest > .colum-2 {
-            padding: 0;
-        }
-
-            .other-services > .quest > .colum-2 > .title {
-                font-weight: bold;
-                font-size: 220%;
-                color: rgb(0, 120, 174);
-                text-indent: 1em;
-            }
-
-            .other-services > .quest > .colum-2 > .detail {
-                text-indent: 2.5em;
-                font-size: 180%;
-                line-height: 160%;
-            }
-
-    /* Nhận tin mới */
-    .other-services > .news {
-        z-index: 10;
-        margin: 5% 0% -10% 0%;
-    }
-
-        .other-services > .news > .box {
-            background: linear-gradient(to bottom,rgba(0,131,188,1) 0,rgba(0,120,174,1) 47%,rgba(0,120,174,1) 100%);
-            text-align: center;
-            border-radius: 0.3em;
-            width: 90%;
-            left: 5%;
-            right: 5%;
-            padding: 2em 0em 1em 0em;
-        }
-
-            .other-services > .news > .box > p {
-                font-family: Roboto-Light;
-                font-size: 250%;
-                color: rgb(255, 255, 255);
-            }
-
-                .other-services > .news > .box > p > span {
-                    font-family: Roboto-Bold;
-                }
-
-            .other-services > .news > .box > a {
-                font-family: Roboto-Black;
-                font-size: 200%;
-                color: rgb(255, 255, 255);
-                padding: 1% 5%;
-                text-shadow: 0 -1px 0 #447523;
-                border-radius: 2em;
-                background: linear-gradient(to bottom,rgb(41, 207, 19) 0,rgb(51, 165, 36) 100%) 0 0/100% 100%;
-                text-decoration: none;
-                width: 60%;
-                left: 20%;
-                right: 20%;
-            }
-
-    /* Thông tin chúng tôi */
-    .other-services > .info {
-        background: url(../images/Services/Thietkewebsite/info-bg.png);
-        padding: 10em 0em 5em 0em;
-    }
-
-        .other-services > .info > div {
-            padding: 0;
-        }
-
-            /* Địa chỉ */
-            .other-services > .info > div > .address {
-                background-color: rgba(0,28,54,.3);
-                border: 1px solid rgb(0, 148, 210);
-                border-radius: 0.3em;
-                padding: 1em;
-                margin: 0% 0% 15% 0%;
-                width: 90%;
-                left: 5%;
-                right: 5%;
-            }
-
-                .other-services > .info > div > .address > img {
-                    padding: 0;
-                    width: 100%;
-                    height: 50%;
-                }
-
-                .other-services > .info > div > .address > p {
-                    font-family: Roboto-Light;
-                    font-size: 200%;
-                    color: rgb(184, 224, 241);
-                    text-transform: uppercase;
-                    text-align: center;
-                    padding: 10% 10%;
-                }
-
-                    .other-services > .info > div > .address > p > span {
-                        font-family: Roboto-Bold;
-                        font-size: 200%;
-                        color: rgb(255, 255, 255);
-                    }
-
-                .other-services > .info > div > .address > a {
-                    background: rgb(0, 120, 174);
-                    font-family: Roboto-Bold;
-                    font-size: 250%;
-                    color: rgb(255, 255, 255);
-                    text-transform: uppercase;
-                    padding: 0% 10%;
-                    border-radius: 4px;
-                    text-shadow: 0 -1px 0 rgb(0, 0, 0);
-                    display: inline-block;
-                    border: 1px solid #008ece;
-                    box-shadow: inset 0 -1px 0 #004664,-1px -1px 0 #004664;
-                    text-decoration: none;
-                    position: absolute;
-                    left: 10%;
-                    right: 10%;
-                    bottom: -6%;
-                    text-align: center;
-                }
-
-                    .other-services > .info > div > .address > a:after {
-                        font-family: Roboto-Black;
-                        font-size: 170%;
-                        padding-left: 5%;
-                        content: "\bb";
-                    }
-
-            /* Đăng ký nhận lời khuyên */
-            .other-services > .info > div > .advice {
-                width: 90%;
-                left: 5%;
-                right: 5%;
-                margin: 0% 0% 10% 0%;
-            }
-
-                .other-services > .info > div > .advice > p {
-                    background: url(../images/Services/Thietkewebsite/info-advice-bg.png);
-                    border: 1px solid rgb(31, 172, 229);
-                    border-radius: 0.5em;
-                    box-shadow: 0 1px 0 rgb(0,0,0);
-                    text-align: center;
-                    font-family: Roboto-Light;
-                    font-size: 240%;
-                    color: rgb(255, 255, 255);
-                    text-shadow: 0 -1px 0 rgb(0, 0, 0);
-                    padding: 1em 1em;
-                }
-
-                    .other-services > .info > div > .advice > p > span {
-                        font-family: Roboto-Black;
-                        font-size: 150%;
-                        text-shadow: 0 -1px 0 rgb(0, 0, 0);
-                    }
-
-                .other-services > .info > div > .advice > form {
-                }
-
-                    .other-services > .info > div > .advice > form > input {
-                        font-size: 220%;
-                        border-radius: 3em;
-                        padding: 0.5em;
-                        margin: 0.5em 0em 1em 0em;
-                    }
-
-                    .other-services > .info > div > .advice > form > a {
-                        font-family: Roboto-Black;
-                        font-size: 250%;
-                        color: rgb(255, 255, 255);
-                        padding: 5px 44px;
-                        text-shadow: 0 -1px 0 #447523;
-                        border-radius: 2em;
-                        background: linear-gradient(to bottom,rgb(41, 207, 19) 0,rgb(51, 165, 36) 100%) 0 0/100% 100%;
-                        text-decoration: none;
-                        text-align: center;
-                        width: 60%;
-                        left: 20%;
-                        right: 20%;
-                    }
-
-            /* Đào tạo */
-            .other-services > .info > div > .train {
-                background-color: rgba(0,28,54,.3);
-                border: 1px solid rgb(0, 148, 210);
-                border-radius: 0.3em;
-                text-align: center;
-                width: 90%;
-                left: 5%;
-                right: 5%;
-                height: 21em;
-                margin: 0;
-            }
-
-                .other-services > .info > div > .train > img {
-                    z-index: 10;
-                    margin-top: -2.5em;
-                }
-
-                .other-services > .info > div > .train > p {
-                    font-family: Roboto-Light;
-                    font-size: 200%;
-                    line-height: 1.7em;
-                    color: rgb(184, 224, 241);
-                }
-
-                .other-services > .info > div > .train > a {
-                    background: rgb(0, 120, 174);
-                    font-family: Roboto-Bold;
-                    font-size: 250%;
-                    color: rgb(255, 255, 255);
-                    text-transform: uppercase;
-                    padding: 3px 28px 3px;
-                    border-radius: 4px;
-                    text-shadow: 0 -1px 0 rgb(0, 0, 0);
-                    display: inline-block;
-                    border: 1px solid #008ece;
-                    box-shadow: inset 0 -1px 0 #004664,-1px -1px 0 #004664;
-                    text-decoration: none;
-                    position: absolute;
-                    left: 10%;
-                    right: 10%;
-                    bottom: -1.2em;
-                }
-
-                    .other-services > .info > div > .train > a:after {
-                        font-family: Roboto-Black;
-                        font-size: 1.5em;
-                        padding-left: 8px;
-                        vertical-align: -2px;
-                        content: "\bb";
-                    }
-}
-
-/*Giao diện cho màn hình laptop*/
-@media (min-width: 992px) and (max-width: 1400px) {
-
     /* menu 1 */
     .other-services > .menu {
         background: url(../images/Services/menu-3.png);
@@ -953,15 +99,12 @@
 
     /* Banner */
     .other-services > .banner {
-        padding: 0;
-        padding-top: 4em;
-        padding-bottom: 3em;
+        padding: 4em 0em 3em 0em;
     }
 
 
         .other-services > .banner > div {
-            padding: 0;
-            padding-top: 1em;
+            padding: 1em 0em 0em 0em;
         }
 
             .other-services > .banner > div > .line-1 {
@@ -1038,8 +181,8 @@
                     }
 
                 .other-services > .content > .detail > div > p {
-                    font-family:;
-                    font-size:;
+                    font-family: Roboto-Light;
+                    font-size: 1em;
                     color: rgb(90, 96, 99);
                     line-height: 1.5;
                 }
@@ -1080,8 +223,7 @@
             background: linear-gradient(to bottom,rgba(0,131,188,1) 0,rgba(0,120,174,1) 47%,rgba(0,120,174,1) 100%);
             text-align: center;
             border-radius: 3px;
-            padding-top: 2em;
-            padding-bottom: 1.5em;
+            padding-top: 2em 0em 1.5em 0em;
         }
 
             .other-services > .call-us > .box > p {
@@ -1144,30 +286,34 @@
             padding-right: 2em;
         }
 
-            .other-services > .quest > .colum-1 > p {
-                margin-bottom: 2.5em;
+            .other-services > .quest > .colum-1 > .title {
+                font-family: Roboto-Bold;
+                font-size: 1.2em;
+                color: rgb(0, 120, 174);
+                margin: 0em 0em 0.5em 0em;
             }
 
-                .other-services > .quest > .colum-1 > p > span {
-                    font-weight: bold;
-                    font-size: 1.2em;
-                    color: rgb(0, 120, 174);
-                }
+            .other-services > .quest > .colum-1 > .detail {
+                font-family: Roboto-Light;
+                margin-bottom: 3em;
+            }
 
         /* Cột 2*/
         .other-services > .quest > .colum-2 {
             padding-left: 2em;
         }
 
-            .other-services > .quest > .colum-2 > p {
-                margin-bottom: 2.5em;
+            .other-services > .quest > .colum-2 > .title {
+                font-family: Roboto-Bold;
+                font-size: 1.2em;
+                color: rgb(0, 120, 174);
+                margin: 0em 0em 0.5em 0em;
             }
 
-                .other-services > .quest > .colum-2 > p > span {
-                    font-weight: bold;
-                    font-size: 1.2em;
-                    color: rgb(0, 120, 174);
-                }
+            .other-services > .quest > .colum-2 > .detail {
+                font-family: Roboto-Light;
+                margin-bottom: 3em;
+            }
 
     /* Nhận tin mới */
     .other-services > .news {
@@ -1179,8 +325,7 @@
             background: linear-gradient(to bottom,rgba(0,131,188,1) 0,rgba(0,120,174,1) 47%,rgba(0,120,174,1) 100%);
             text-align: center;
             border-radius: 3px;
-            padding-top: 2em;
-            padding-bottom: 1em;
+            padding: 2em 0em 1em 0em;
         }
 
             .other-services > .news > .box > p {
@@ -1199,7 +344,7 @@
                 color: rgb(255, 255, 255);
                 padding: 5px 40px;
                 text-shadow: 0 -1px 0 #447523;
-                border-radius: 18px;
+                border-radius: 1em;
                 background: linear-gradient(to bottom,rgb(41, 207, 19) 0,rgb(51, 165, 36) 100%) 0 0/100% 100%;
                 transition: all .4s linear;
                 width: 9em;
@@ -1216,8 +361,7 @@
     /* Thông tin chúng tôi */
     .other-services > .info {
         background: url(../images/Services/Thietkewebsite/info-bg.png);
-        padding-top: 10em;
-        padding-bottom: 5em;
+        padding: 10em 0em 5em 0em;
     }
 
         .other-services > .info > div {
@@ -1234,7 +378,7 @@
 
                 .other-services > .info > div > .address > img {
                     padding: 0;
-                    height: 12em;
+                    height: 50%;
                 }
 
                 .other-services > .info > div > .address > p {
@@ -1297,10 +441,7 @@
                     font-family: Roboto-Light;
                     color: rgb(255, 255, 255);
                     text-shadow: 0 -1px 0 rgb(0, 0, 0);
-                    padding-top: 1.5em;
-                    padding-left: 2em;
-                    padding-right: 2em;
-                    padding-bottom: 1em;
+                    padding: 1.5em 2em 1em 2em;
                 }
 
                     .other-services > .info > div > .advice > p:after {
@@ -1318,8 +459,7 @@
                     .other-services > .info > div > .advice > form > input {
                         height: 3em;
                         border-radius: 3em;
-                        margin-top: 3em;
-                        margin-bottom: 2em;
+                        margin-top: 3em 0em 2em 0em;
                     }
 
                     .other-services > .info > div > .advice > form > a {
@@ -1328,7 +468,7 @@
                         color: rgb(255, 255, 255);
                         padding: 5px 44px;
                         text-shadow: 0 -1px 0 #447523;
-                        border-radius: 18px;
+                        border-radius: 2em;
                         background: linear-gradient(to bottom,rgb(41, 207, 19) 0,rgb(51, 165, 36) 100%) 0 0/100% 100%;
                         transition: all .4s linear;
                         width: 9em;
@@ -1395,8 +535,573 @@
                     .other-services > .info > div > .train > a:hover {
                         background: rgb(0, 157, 220);
                     }
+
+
+/*Giap diện cho màn hình tablet*/
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Banner */
+    .other-services > .banner {
+            width: 90%;
+            left: 5%;
+    }
+
+        .other-services > .banner > div {
+        }
+
+            .other-services > .banner > div > .line-1 {
+                font-size: 440%;
+                text-align: center;
+            }
+
+            .other-services > .banner > div > .line-2 {
+                font-size: 200%;
+                text-align: justify;
+            }
+
+            .other-services > .banner > div > a {
+                font-size: 190%;
+                padding: 1% 5%;
+                width: 40%;
+                margin: 2% 0% 10% 0%;
+            }
+
+        .other-services > .banner > img {
+            width: 100%;
+        }
+
+    /* Nội dung trang */
+    .other-services > .content {
+        padding: 5% 0% 25% 0%;
+        text-align: center;
+    }
+
+        .other-services > .content > .detail {
+            padding: 5% 0%;
+            width: 90%;
+            left: 5%;
+        }
+
+            .other-services > .content > .detail > .icon {
+            }
+
+                .other-services > .content > .detail > .icon > img {
+                    width: 50%;
+                    height: 50%;
+                }
+
+            .other-services > .content > .detail > div {
+                text-align: center;
+                margin-top: 3%;
+                padding: 0;
+            }
+
+                .other-services > .content > .detail > div > a {
+                    font-size: 400%;
+                }
+
+                .other-services > .content > .detail > div > p {
+                    font-family: Roboto-Light;
+                    font-size: 200%;
+                    text-align: justify;
+                }
+
+            .other-services > .content > .detail > .more {
+                font-size: 300%;
+                width: 60%;
+                left: 20%;
+                right: 20%;
+                margin: 0;
+            }
+
+                .other-services > .content > .detail > .more:after {
+                    font-size: 150%;
+                    top: 0.27em;
+                }
+
+    /* Liên hệ với chúng tôi */
+    .other-services > .call-us {
+        margin-top: -15%;
+    }
+
+        .other-services > .call-us > .box {
+            padding: 3% 0% 5% 0%;
+            width: 90%;
+            left: 5%;
+            right: 5%;
+        }
+
+            .other-services > .call-us > .box > p {
+                font-size: 300%;
+            }
+
+            .other-services > .call-us > .box > a {
+                font-size: 250%;
+                border-radius: 2em;
+                width: 60%;
+                left: 20%;
+                right: 20%;
+            }
+
+    /* Trả lời câu hỏi */
+    .other-services > .quest {
+        margin-top: 7%;
+        width: 90%;
+        left: 5%;
+        right: 5%;
+    }
+
+        .other-services > .quest > .title {
+        }
+
+            .other-services > .quest > .title > .line-1 {
+                font-size: 350%;
+            }
+
+            .other-services > .quest > .title > .line-2 {
+                font-size: 400%;
+            }
+
+        /* Cột 1 */
+        .other-services > .quest > .colum-1 {
+        }
+
+            .other-services > .quest > .colum-1 > .title {
+                font-size: 2em;
+                margin: 0em 0em 0.5em 0em;
+            }
+
+            .other-services > .quest > .colum-1 > .detail {
+                font-size: 1.7em;
+                line-height: 1.5em;
+            }
+
+        /* Cột 2*/
+        .other-services > .quest > .colum-2 {
+            padding: 0;
+        }
+
+            .other-services > .quest > .colum-2 > .title {
+                font-size: 2em;
+                margin: 0em 0em 0.5em 0em;
+            }
+
+            .other-services > .quest > .colum-2 > .detail {
+                font-size: 1.7em;
+                line-height: 1.5em;
+            }
+
+    /* Nhận tin mới */
+    .other-services > .news {
+        z-index: 10;
+        margin: 5% 0% -10% 0%;
+    }
+
+        .other-services > .news > .box {
+            border-radius: 0.3em;
+            width: 90%;
+            left: 5%;
+            right: 5%;
+        }
+
+            .other-services > .news > .box > p {
+            }
+
+                .other-services > .news > .box > p > span {
+                }
+
+            .other-services > .news > .box > a {
+                font-size: 200%;
+                padding: 1% 5%;
+                width: 60%;
+                left: 20%;
+                right: 20%;
+            }
+
+    /* Thông tin chúng tôi */
+    .other-services > .info {
+    }
+
+        .other-services > .info > div {
+        }
+
+            /* Địa chỉ */
+            .other-services > .info > div > .address {
+                padding: 1em;
+                margin: 0% 0% 15% 0%;
+                width: 90%;
+                left: 5%;
+                right: 5%;
+            }
+
+                .other-services > .info > div > .address > img {
+                }
+
+                .other-services > .info > div > .address > p {
+                    font-size: 175%;
+                    text-align: center;
+                    padding: 10% 10%;
+                }
+
+                    .other-services > .info > div > .address > p > span {
+                        font-size: 200%;
+                    }
+
+                .other-services > .info > div > .address > a {
+                    font-size: 250%;
+                    padding: 0% 10%;
+                    left: 10%;
+                    right: 10%;
+                    bottom: -6%;
+                    text-align: center;
+                }
+
+                    .other-services > .info > div > .address > a:after {
+                        font-size: 170%;
+                        padding-left: 5%;
+                    }
+
+            /* Đăng ký nhận lời khuyên */
+            .other-services > .info > div > .advice {
+                width: 90%;
+                left: 5%;
+                right: 5%;
+                margin: 0% 0% 10% 0%;
+            }
+
+                .other-services > .info > div > .advice > p {
+                    font-size: 240%;
+                    padding: 1em 1em;
+                }
+
+                    .other-services > .info > div > .advice > p > span {
+                    }
+
+                .other-services > .info > div > .advice > form {
+                }
+
+                    .other-services > .info > div > .advice > form > input {
+                        font-size: 200%;
+                        padding: 0.5em;
+                        margin: 0.5em 0em 1em 0em;
+                    }
+
+                    .other-services > .info > div > .advice > form > a {
+                        font-size: 250%;
+                        width: 60%;
+                        left: 20%;
+                        right: 20%;
+                        text-align: center;
+                    }
+
+            /* Đào tạo */
+            .other-services > .info > div > .train {
+                width: 90%;
+                left: 5%;
+                right: 5%;
+                height: 1%;
+                margin: 0;
+            }
+
+                .other-services > .info > div > .train > img {
+                    width: 15em;
+                }
+
+                .other-services > .info > div > .train > p {
+                    font-size: 190%;
+                    margin: 0em 0em 1em 0em;
+                }
+
+                .other-services > .info > div > .train > a {
+                    font-size: 250%;
+                    left: 10%;
+                    right: 10%;
+                    bottom: -1.2em;
+                }
+
+                    .other-services > .info > div > .train > a:after {
+                    }
 }
 
-/*Giao diện cho màn hình lớn*/
-@media (min-width: 1401px) {
+/*Giao diện cho màn hình điện thoại*/
+@media (max-width: 767px) {
+
+        /* Banner */
+    .other-services > .banner {
+        padding: 0% 5% 10% 5%;
+        text-align: center;
+    }
+
+        .other-services > .banner > div {
+            width: 100%;
+        }
+
+            .other-services > .banner > div > .line-1 {
+                font-size: 300%;
+            }
+
+            .other-services > .banner > div > .line-2 {
+                font-size: 150%;
+                text-align: justify;
+            }
+
+            .other-services > .banner > div > a {
+                font-size: 150%;
+                padding: 2% 10%;
+                width: 60%;
+                left: 20%;
+                right: 20%;
+                margin: 10% 0%;
+            }
+
+            .other-services > .banner > div > img {
+                width: 90%;
+                left: 20%;
+                right: 20%;
+            }
+
+    /* Nội dung trang */
+    .other-services > .content {
+        padding: 5% 0% 25% 0%;
+        text-align: center;
+    }
+
+        .other-services > .content > .detail {
+            padding: 5% 5% 5% 5%;
+            border-bottom: solid 1px rgb(211, 211, 211);
+        }
+
+            .other-services > .content > .detail > .icon {
+            }
+
+                .other-services > .content > .detail > .icon > img {
+                }
+
+            .other-services > .content > .detail > div {
+                padding: 2em 1em 0em 1em;
+                text-align: center;
+            }
+
+                .other-services > .content > .detail > div > a {
+                    font-size: 2em;
+                    margin: 0em 0em 2em 0em;
+                }
+
+                .other-services > .content > .detail > div > p {
+                    font-size: 1.5em;
+                    text-align: justify;
+                }
+
+            .other-services > .content > .detail > .more {
+                font-size: 200%;
+                width: 60%;
+                left: 20%;
+                right: 20%;
+                margin: 0;
+            }
+
+                .other-services > .content > .detail > .more:after {
+                    font-size: 1.4em;
+                    left: 0.2em;
+                    top: 0.22em;
+                }
+
+    /* Liên hệ với chúng tôi */
+    .other-services > .call-us {
+        z-index: 10;
+        margin: -5em 0em 0em 0em;
+    }
+
+        .other-services > .call-us > .box {
+            padding: 1em 0em 1em 0em;
+            width: 90%;
+            left: 5%;
+            right: 5%;
+        }
+
+            .other-services > .call-us > .box > p {
+                font-size: 180%;
+            }
+
+            .other-services > .call-us > .box > a {
+                font-size: 150%;
+                width: 60%;
+                left: 20%;
+                right: 20%;
+            }
+
+    /* Trả lời câu hỏi */
+    .other-services > .quest {
+        margin-top: 10%;
+        width: 90%;
+        left: 5%;
+        right: 5%;
+    }
+
+        .other-services > .quest > .title {
+        }
+
+            .other-services > .quest > .title > .line-1 {
+                font-size: 200%;
+            }
+
+            .other-services > .quest > .title > .line-2 {
+                font-size: 190%;
+            }
+
+        /* Cột 1 */
+        .other-services > .quest > .colum-1 {
+        }
+
+            .other-services > .quest > .colum-1 > .title {
+                font-size: 140%;
+            }
+
+            .other-services > .quest > .colum-1 > .detail {
+                font-size: 110%;
+                line-height: 160%;
+            }
+
+        /* Cột 2*/
+        .other-services > .quest > .colum-2 {
+            padding: 0;
+        }
+
+            .other-services > .quest > .colum-2 > .title {
+                font-size: 130%;
+            }
+
+            .other-services > .quest > .colum-2 > .detail {
+                font-size: 110%;
+                line-height: 160%;
+            }
+
+    /* Nhận tin mới */
+    .other-services > .news {
+        z-index: 10;
+        margin: 2em 0em -7em 0em;
+    }
+
+        .other-services > .news > .box {
+            border-radius: 0.3em;
+            width: 90%;
+            left: 5%;
+            right: 5%;
+            padding: 2em 0em 1em 0em;
+        }
+
+            .other-services > .news > .box > p {
+                font-size: 2em;
+            }
+
+                .other-services > .news > .box > p > span {
+                }
+
+            .other-services > .news > .box > a {
+                font-size: 150%;
+                width: 60%;
+                left: 20%;
+                right: 20%;
+            }
+
+    /* Thông tin chúng tôi */
+    .other-services > .info {
+        padding: 10em 0em 5em 0em;
+    }
+
+        .other-services > .info > div {
+        }
+
+            /* Địa chỉ */
+            .other-services > .info > div > .address {
+                border-radius: 0.3em;
+                padding: 1em;
+                margin: 0em 0em 4em 0em;
+                width: 90%;
+                left: 5%;
+                right: 5%;
+            }
+
+                .other-services > .info > div > .address > img {
+                    width: 100%;
+                }
+
+                .other-services > .info > div > .address > p {
+                    font-size: 130%;
+                    padding: 10% 10%;
+                }
+
+                    .other-services > .info > div > .address > p > span {
+                    }
+
+                .other-services > .info > div > .address > a {
+                    font-size: 150%;
+                    padding: 1% 10%;
+                    left: 10%;
+                    right: 10%;
+                    bottom: -6%;
+                    text-align: center;
+                }
+
+                    .other-services > .info > div > .address > a:after {
+                        padding-left: 5%;
+                    }
+
+            /* Đăng ký nhận lời khuyên */
+            .other-services > .info > div > .advice {
+                width: 90%;
+                left: 5%;
+                right: 5%;
+                margin: 0em 0em 6em 0em;
+                padding: 0;
+            }
+
+                .other-services > .info > div > .advice > p {
+                    border-radius: 0.5em;
+                    font-size: 1.2em;
+                    padding: 1em 1em;
+                }
+
+                    .other-services > .info > div > .advice > p > span {
+                    }
+
+                .other-services > .info > div > .advice > form {
+                }
+
+                    .other-services > .info > div > .advice > form > input {
+                        font-size: 1.3em;
+                        margin: 0.5em 0em 1em 0em;
+                    }
+
+                    .other-services > .info > div > .advice > form > a {
+                        font-size: 1.5em;
+                        width: 70%;
+                        left: 15%;
+                        text-align: center;
+                    }
+
+            /* Đào tạo */
+            .other-services > .info > div > .train {
+                height: 1%;
+                width: 90%;
+                left: 5%;
+                right: 5%;
+                margin: 0;
+            }
+
+                .other-services > .info > div > .train > img {
+                }
+
+                .other-services > .info > div > .train > p {
+                    font-size: 1.5em;
+                    margin: 0em 0em 1.5em 0em;
+                    padding: 0;
+                }
+
+                .other-services > .info > div > .train > a {
+                    left: 10%;
+                    right: 10%;
+                }
+
+                    .other-services > .info > div > .train > a:after {
+                    }
 }
