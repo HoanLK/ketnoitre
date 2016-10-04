@@ -604,10 +604,14 @@ footer {
             }
 
                 header > .header-menu > .header-menu-2 > .navbar-inverse .navbar-toggle:hover {
-                    background-color: rgb(0, 120, 174);
+                    background-color: rgb(255, 255, 255);
                 }
 
                 header > .header-menu > .header-menu-2 > .navbar-inverse .navbar-toggle span {
+                }
+
+                header > .header-menu > .header-menu-2 > .navbar-inverse .navbar-toggle:hover span{
+                    background-color: rgb(0, 120, 174);
                 }
 
             header > .header-menu > .header-menu-2 > .navbar-inverse .navbar-brand {
