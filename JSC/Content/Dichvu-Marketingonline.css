@@ -10,17 +10,17 @@
 
         .marketing-online > .menu > p {
             font-family: Roboto-Medium;
-            font-size: 3.5em;
+            font-size: 2em;
             color: white;
             padding: 0;
-            margin-top: 0.55em;
+            margin: 0.7em 0em 0em 3.8em;
+            width: 20%;
         }
 
         .marketing-online > .menu > ul {
             list-style: none;
             padding: 0;
-            margin-top: 3em;
-            margin-bottom: 0.5em;
+            margin: 1em 0em 0.5em 0em;
         }
 
             .marketing-online > .menu > ul > li {
