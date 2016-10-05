@@ -80,80 +80,80 @@ header {
 
 
     /*Phần menu*/
-    header > .header-menu {
+    header > .menu {
         margin: 0;
         padding: 0;
     }
 
-        header > .header-menu > .header-menu-1 {
+        header > .menu > .menu-1 {
             margin: 0;
             padding: 0.6em 0em 0em 4.3em;
         }
 
-            header > .header-menu > .header-menu-1 > ul {
+            header > .menu > .menu-1 > ul {
                 width: 24.2em;
                 padding: 0;
                 margin-right: -1em;
             }
 
-                header > .header-menu > .header-menu-1 > ul > li {
+                header > .menu > .menu-1 > ul > li {
                     list-style: none;
                     padding: 0;
                     margin: 0;
                     text-align: right;
                 }
 
-                    header > .header-menu > .header-menu-1 > ul > li > a {
+                    header > .menu > .menu-1 > ul > li > a {
                         text-decoration: none;
                         color: rgb(117,117,117);
                         font-family: arial;
                         font-size: 1em;
                     }
 
-                        header > .header-menu > .header-menu-1 > ul > li > a:hover {
+                        header > .menu > .menu-1 > ul > li > a:hover {
                             color: rgb(74,166,189);
                         }
 
-            header > .header-menu > .header-menu-1 > .header-search {
+            header > .menu > .menu-1 > .header-search {
                 border-left: 1px solid rgb(181,181,181);
                 border-right: 1px solid rgb(181,181,181);
                 width: 12em;
                 padding: -0.2em 0em 0em 0.6em;
             }
 
-                header > .header-menu > .header-menu-1 > .header-search > .header-txt-search {
+                header > .menu > .menu-1 > .header-search > .header-txt-search {
                     width: 8em;
                 }
 
-                header > .header-menu > .header-menu-1 > .header-search > .header-btn-search {
+                header > .menu > .menu-1 > .header-search > .header-btn-search {
                     padding: 0;
                     padding-left: 0.2em;
                 }
 
-                    header > .header-menu > .header-menu-1 > .header-search > .header-btn-search > img {
+                    header > .menu > .menu-1 > .header-search > .header-btn-search > img {
                     }
 
-            header > .header-menu > .header-menu-1 > .header-phone {
+            header > .menu > .menu-1 > .header-phone {
                 text-decoration: none;
                 font-weight: bold;
                 color: rgb(91,91,91);
             }
 
-                header > .header-menu > .header-menu-1 > .header-phone > img {
+                header > .menu > .menu-1 > .header-phone > img {
                     margin-top: -5px;
                     padding: 0.4em 0.3em;
                 }
 
 
         /*Menu thứ 2*/
-        header > .header-menu > .header-menu-2 {
+        header > .menu > .menu-2 {
             width: 100%;
             height: 2.5em;
             padding: 0;
             margin: 1.5em 0em 0em 0em;
         }
 
-            header > .header-menu > .header-menu-2 > nav {
+            header > .menu > .menu-2 > nav {
                 padding: 0;
                 margin: 0;
                 background: rgb(255, 255, 255);
@@ -162,46 +162,46 @@ header {
                 width: 70%;
             }
 
-                header > .header-menu > .header-menu-2 > nav > .container-fluid {
+                header > .menu > .menu-2 > nav > .container-fluid {
                     padding: 0;
                 }
 
                     /*Khung chứa menu*/
-                    header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse {
+                    header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse {
                         text-align: center;
                         padding: 0;
                     }
 
                         /*Menu tầng 1*/
-                        header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 {
+                        header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 {
                             list-style: none;
                             width: 100%;
                             padding: 0;
                         }
 
-                            header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li {
+                            header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li {
                                 list-style: none;
                                 width: 26%;
                                 padding: 0;
                                 margin: 0em -0.5em 0em 0em;
                             }
 
-                                header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > a {
+                                header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > a {
                                     font-family: Roboto-Medium;
                                     font-size: 1.3em;
                                     color: rgb(90,96,99);
                                     text-transform: uppercase;
                                     text-decoration: none;
                                     background: rgb(255, 255, 255);
-                                    padding: 0.5em 1em 0em 1em;
+                                    padding: 0.5em 1em 0.5em 1em;
                                 }
 
-                                    header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > a:hover {
+                                    header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > a:hover {
                                         color: rgb(0,120,174);
                                     }
 
                                 /*Menu tầng 2*/
-                                header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 {
+                                header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 {
                                     background: rgb(255, 255, 255);
                                     border: solid rgb(0, 157, 220);
                                     border-width: 3px 0;
@@ -217,7 +217,7 @@ header {
                                     transition: all .1s linear;
                                 }
 
-                                    header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2:before {
+                                    header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2:before {
                                         content: "";
                                         width: 1.3em;
                                         height: 1.3em;
@@ -229,11 +229,11 @@ header {
                                         z-index: 1;
                                     }
 
-                                header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li:hover > .menu-2 {
+                                header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li:hover > .menu-2 {
                                     display: block;
                                 }
 
-                                header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li {
+                                header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li {
                                     width: auto;
                                     max-width: 100%;
                                     white-space: nowrap;
@@ -242,7 +242,7 @@ header {
                                     border-bottom: 1px solid rgb(227, 227, 227);
                                 }
 
-                                    header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > a {
+                                    header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > a {
                                         background: rgb(255, 255, 255);
                                         display: block;
                                         font-family: Roboto-Medium;
@@ -253,14 +253,14 @@ header {
                                         text-decoration: none;
                                     }
 
-                                        header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > a:hover {
+                                        header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > a:hover {
                                             background: rgb(0, 157, 220);
                                             color: rgb(255, 255, 255);
                                         }
 
 
                                     /*Menu tầng 3*/
-                                    header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > .menu-3 {
+                                    header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > .menu-3 {
                                         background-color: rgb(250, 250, 250);
                                         border-left: 5px solid rgb(0, 170, 238);
                                         position: absolute;
@@ -275,18 +275,18 @@ header {
                                         margin-left: auto;
                                     }
 
-                                    header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li:hover > .menu-3 {
+                                    header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li:hover > .menu-3 {
                                         display: block;
                                     }
 
-                                    header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > .menu-3 > li {
+                                    header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > .menu-3 > li {
                                         background-color: rgb(250, 250, 250);
                                         max-width: 100%;
                                         transition: background-color .1s linear,opacity .1s linear;
                                         list-style: none;
                                     }
 
-                                        header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > .menu-3 > li > a {
+                                        header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > .menu-3 > li > a {
                                             font-family: Roboto-Regular;
                                             font-size: 1.1em;
                                             color: rgb(90, 96, 99);
@@ -297,20 +297,20 @@ header {
                                             border-bottom: 1px solid rgb(227, 227, 227);
                                         }
 
-                                            header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > .menu-3 > li > a:hover {
+                                            header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > .menu-3 > li > a:hover {
                                                 color: rgb(144, 196, 4);
                                                 background: rgb(255, 255, 255);
                                                 border-bottom: 1px solid rgb(144, 196, 4);
                                             }
 
             /*Nút đăng ký tư vấn*/
-            header > .header-menu > .header-menu-2 > .suicide {
+            header > .menu > .menu-2 > .suicide {
                 border-left: 0.1em solid rgb(117,117,117);
                 float: left;
                 height: 3.5em;
             }
 
-                header > .header-menu > .header-menu-2 > .suicide > a {
+                header > .menu > .menu-2 > .suicide > a {
                     font-family: Roboto-Black;
                     font-size: 1em;
                     color: rgb(144,196,4);
@@ -319,7 +319,7 @@ header {
                     transition: color .3s;
                 }
 
-                    header > .header-menu > .header-menu-2 > .suicide > a::after {
+                    header > .menu > .menu-2 > .suicide > a::after {
                         content: "\bb";
                         padding-left: 0.2em;
                         top: 0.08em;
@@ -327,7 +327,7 @@ header {
                         position: relative;
                     }
 
-                    header > .header-menu > .header-menu-2 > .suicide > a:hover {
+                    header > .menu > .menu-2 > .suicide > a:hover {
                         color: rgb(0,120,174);
                     }
 
@@ -449,71 +449,71 @@ footer {
 
 
     /*Phần menu*/
-    header > .header-menu {
+    header > .menu {
         margin: 0;
     }
 
-        header > .header-menu > .header-menu-2 {
+        header > .menu > .menu-2 {
             height: 3em;
             margin-top: 3em 0em 0em 0em;
         }
 
-            header > .header-menu > .header-menu-2 > nav {
+            header > .menu > .menu-2 > nav {
                 width: 100%;
             }
 
-                header > .header-menu > .header-menu-2 > nav > .container-fluid {
+                header > .menu > .menu-2 > nav > .container-fluid {
                 }
 
                     /*Khung chứa menu*/
-                    header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse {
+                    header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse {
                     }
 
                         /*Menu tầng 1*/
-                        header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 {
+                        header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 {
                             margin: 0em -3em 0em 0em;
                         }
 
-                            header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li {
+                            header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li {
                                 width: 25%;
                             }
 
-                                header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > a {
+                                header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > a {
                                     font-size: 2em;
                                     padding: 0em;
                                 }
 
                                 /*Menu tầng 2*/
-                                header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 {
+                                header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 {
                                 }
 
-                                    header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2:before {
+                                    header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2:before {
                                     }
 
-                                header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li:hover > .menu-2 {
+                                header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li:hover > .menu-2 {
                                 }
 
-                                header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li {
+                                header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li {
                                 }
 
-                                    header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > a {
+                                    header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > a {
                                     }
 
-                                        header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > a:hover {
+                                        header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > a:hover {
                                         }
 
 
                                     /*Menu tầng 3*/
-                                    header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > .menu-3 {
+                                    header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > .menu-3 {
                                     }
 
-                                    header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li:hover > .menu-3 {
+                                    header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li:hover > .menu-3 {
                                     }
 
-                                    header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > .menu-3 > li {
+                                    header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > .menu-3 > li {
                                     }
 
-                                        header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > .menu-3 > li > a {
+                                        header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > .menu-3 > li > a {
                                         }
 
     /*Footer*/
@@ -568,11 +568,10 @@ footer {
                 }
 
     /*Phần menu*/
-    header > .header-menu {
+    header > .menu {
     }
 
-        /*Menu-2*/
-        header > .header-menu > .header-menu-2 {
+        header > .menu > .menu-mobile {
             width: 100%;
             height: 1%;
             overflow: hidden;
@@ -580,79 +579,117 @@ footer {
             margin: 1.5em 0em 0em 0em;
         }
 
-            header > .header-menu > .header-menu-2 > nav {
+            header > .menu > .menu-mobile > nav {
                 width: 100%;
                 background: rgb(0, 120, 174);
-                padding: 0% 3%;
+                padding: 0;
+                border: none;
             }
 
-            header > .header-menu > .header-menu-2 > navbar {
+            header > .menu > .menu-mobile > navbar {
             }
 
-            header > .header-menu > .header-menu-2 > navbar-inverse {
+            header > .menu > .menu-mobile > navbar-inverse {
             }
 
-            header > .header-menu > .header-menu-2 > navbar > .container-fluid {
+            header > .menu > .menu-mobile > navbar > .container-fluid {
                 padding: 0;
             }
 
-                header > .header-menu > .header-menu-2 > navbar > .container-fluid > navbar-header {
+                header > .menu > .menu-mobile > navbar > .container-fluid > navbar-header {
+                    border: none;
                 }
 
-            header > .header-menu > .header-menu-2 > .navbar-inverse .navbar-toggle {
+            header > .menu > .menu-mobile > .navbar-inverse .navbar-toggle {
                 border-color: rgb(255, 255, 255) !important;
             }
 
-                header > .header-menu > .header-menu-2 > .navbar-inverse .navbar-toggle:hover {
+                header > .menu > .menu-mobile > .navbar-inverse .navbar-toggle:hover {
                     background-color: rgb(255, 255, 255);
                 }
 
-                header > .header-menu > .header-menu-2 > .navbar-inverse .navbar-toggle span {
+                header > .menu > .menu-mobile > .navbar-inverse .navbar-toggle span {
                 }
 
-                header > .header-menu > .header-menu-2 > .navbar-inverse .navbar-toggle:hover span{
+                header > .menu > .menu-mobile > .navbar-inverse .navbar-toggle:hover span {
                     background-color: rgb(0, 120, 174);
                 }
 
-            header > .header-menu > .header-menu-2 > .navbar-inverse .navbar-brand {
+            header > .menu > .menu-mobile > .navbar-inverse .navbar-brand {
                 font-family: Roboto-Black;
-                font-size: 2em;
+                font-size: 2.5em;
                 color: rgb(255, 255, 255);
             }
 
             /*Khung chứa menu*/
-            header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse {
+            header > .menu > .menu-mobile > nav > .container-fluid > .navbar-collapse {
                 text-align: left;
                 padding: 0;
+                border-top: solid 1px rgb(255, 255, 255);
             }
 
                 /*Menu tầng 1*/
-                header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 {
+                header > .menu > .menu-mobile > nav > .container-fluid > .navbar-collapse > .menu-1 {
                     list-style: none;
                     width: 100%;
                     padding: 0;
                     margin: 0;
                 }
 
-                    header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li {
+                    header > .menu > .menu-mobile > nav > .container-fluid > .navbar-collapse > .menu-1 > li {
                         list-style: none;
                         width: 100%;
                         padding: 0.8em 1em;
-                        margin: 0;
                         border-bottom: solid 0.5px rgb(255, 255, 255);
                     }
 
-                        header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > a {
+                        header > .menu > .menu-mobile > nav > .container-fluid > .navbar-collapse > .menu-1 > li > a {
                             font-family: Roboto-Light;
-                            font-size: 1.3em;
+                            font-size: 1.5em;
                             color: rgb(255, 255, 255);
                             background: rgb(0, 120, 174);
                             padding: 0;
                         }
 
-                            header > .header-menu > .header-menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > a:hover {
+                            header > .menu > .menu-mobile > nav > .container-fluid > .navbar-collapse > .menu-1 > li > a:hover {
                                 color: rgb(255, 255, 255);
                             }
+
+                        /*Menu tầng 2*/
+                        header > .menu > .menu-mobile > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 {
+                            background: rgb(0, 120, 174);
+                            z-index: 2;
+                            width: 100%;
+                            list-style: none;
+                            text-align: left;
+                            padding: 0;
+                            margin: 0;
+                        }
+
+                        header > .menu > .menu-mobile > nav > .container-fluid > .navbar-collapse > .menu-1 > li:hover > .menu-2 {
+                        }
+
+                        header > .menu > .menu-mobile > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li {
+                            width: 100%;
+                            z-index: 0;
+                            padding: 1em 1em 0.5em 1em;
+                            margin: 0;
+                        }
+
+                            header > .menu > .menu-mobile > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > a {
+                                background: rgb(0, 120, 174);
+                                font-family: Roboto-Light;
+                                font-size: 1.2em;
+                                color: rgb(255, 255, 255);
+                                padding: 0;
+                                text-transform: uppercase;
+                            }
+
+                                header > .menu > .menu-mobile > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > a:hover {
+                                    background: rgb(0, 120, 174);
+                                    color: rgb(255, 255, 255);
+                                    display: none;
+                                }
 
     /*Footer*/
     footer {

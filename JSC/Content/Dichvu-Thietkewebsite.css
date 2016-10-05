@@ -216,14 +216,15 @@
     /* Liên hệ với chúng tôi */
     .web-design > .call-us {
         z-index: 10;
-        margin-top: -3.5em;
+        margin: -4em 0em;
     }
 
         .web-design > .call-us > .box {
             background: linear-gradient(to bottom,rgba(0,131,188,1) 0,rgba(0,120,174,1) 47%,rgba(0,120,174,1) 100%);
             text-align: center;
             border-radius: 3px;
-            padding-top: 2em 0em 1.5em 0em;
+            padding: 2em 0em 1.5em 0em;
+            height: 8em
         }
 
             .web-design > .call-us > .box > p {
@@ -288,7 +289,7 @@
 
             .web-design > .quest > .colum-1 > .title {
                 font-family: Roboto-Bold;
-                font-size: 1.2em;
+                font-size: 1.5em;
                 color: rgb(0, 120, 174);
                 margin: 0em 0em 0.5em 0em;
             }
@@ -296,6 +297,7 @@
             .web-design > .quest > .colum-1 > .detail {
                 font-family: Roboto-Light;
                 margin-bottom: 3em;
+                font-size: 1.2em;
             }
 
         /* Cột 2*/
@@ -305,7 +307,7 @@
 
             .web-design > .quest > .colum-2 > .title {
                 font-family: Roboto-Bold;
-                font-size: 1.2em;
+                font-size: 1.5em;
                 color: rgb(0, 120, 174);
                 margin: 0em 0em 0.5em 0em;
             }
@@ -313,6 +315,7 @@
             .web-design > .quest > .colum-2 > .detail {
                 font-family: Roboto-Light;
                 margin-bottom: 3em;
+                font-size: 1.2em;
             }
 
     /* Nhận tin mới */
@@ -441,7 +444,7 @@
                     font-family: Roboto-Light;
                     color: rgb(255, 255, 255);
                     text-shadow: 0 -1px 0 rgb(0, 0, 0);
-                    padding: 1.5em 2em 1em 2em;
+                    padding: 2em 2em 1em 2em;
                 }
 
                     .web-design > .info > div > .advice > p:after {
@@ -489,7 +492,7 @@
                 border: 1px solid rgb(0, 148, 210);
                 border-radius: 4px;
                 text-align: center;
-                height: 23.3em;
+                height: 1%;
             }
 
                 .web-design > .info > div > .train > img {
@@ -503,7 +506,7 @@
                     line-height: 1.7em;
                     color: rgb(184, 224, 241);
                     padding: 1.5em;
-                    margin-top: 2em;
+                    margin-top: 0em;
                 }
 
                 .web-design > .info > div > .train > a {

@@ -10,6 +10,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>@ViewBag.Title - Kết nối trẻ</title>
     @*@Styles.Render("~/Content/css")*@
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
     <link href="~/Content/Header-footer.css" rel="stylesheet" />
     <link href="~/Content/Trangchu.css" rel="stylesheet" />
     <link href="~/Content/Dichvu.css" rel="stylesheet" />
@@ -22,7 +24,7 @@
     <link href="~/Content/Thietkephanmem-Trangcon.css" rel="stylesheet" />
     <link href="~/Content/Marketingonline-Trangcon.css" rel="stylesheet" />
     <link href="~/Content/Dichvukhac-Trangcon.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 
     @Scripts.Render("~/bundles/modernizr")
 </head>
@@ -37,8 +39,8 @@
                 </a>
             </div>
         </div>
-        <div class="header-menu col-md-7 col-lg-7">
-            <div class="header-menu-1 hidden-xs hidden-sm col-md-12 col-lg-12">
+        <div class="menu col-xs-12 col-sm-12 col-md-7 col-lg-7">
+            <div class="menu-1 hidden-sm hidden-xs col-md-12 col-lg-12">
                 <ul class="col-md-5 col-lg-6">
                     <li class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1"><a href="#">Tuyển dụng</a></li>
                     <li class="col-md-4 col-lg-4"><a href="#">Kho giao diện</a></li>
@@ -50,8 +52,8 @@
                 </form>
                 <a href="tel:01642166367" class="header-phone col-md-3 col-lg-3"><img src="~/images/header-phone-icon.png" />0164.216.6367</a>
             </div>
-            <div class="header-menu-2 col-md-12 col-lg-12">
-                <nav class="navbar navbar-inverse">
+            <div class="menu-2 hidden-xs col-md-12 col-lg-12">
+                <nav class="navbar navbar-inverse" role="navigation">
                     <div class="container-fluid">
                         <div class="navbar-header hidden-md hidden-lg">
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -66,10 +68,10 @@
                                 <li class="active"><a href="@Url.Action("Index","Home")">Trang chủ</a></li>
                                 <li class="dropdown">
                                     <a class="dropdown-toggle" href="@Url.Action("Service","Home")">Dịch vụ</a>
-                                    <ul class="menu-2 dropdown-menu hidden-xs hidden-sm">
+                                    <ul class="menu-2 dropdown-menu hidden-sm">
                                         <li>
                                             <a href="@Url.Action("SvThietkewebsite","Home")">Thiết kế website</a>
-                                            <ul class="menu-3 hidden-xs hidden-sm">
+                                            <ul class="menu-3 hidden-sm">
                                                 <li><a href="@Url.Action("WsNhahang","Home")">Thiết kế website nhà hàng</a></li>
                                                 <li><a href="@Url.Action("WsKhachsan","Home")">Thiết kế website khách sạn</a></li>
                                                 <li><a href="@Url.Action("WsSpa","Home")">Thiết kế website Spa - Beauty</a></li>
@@ -81,7 +83,7 @@
                                         </li>
                                         <li>
                                             <a href="@Url.Action("SvThietkephanmem","Home")">Thiết kế phần mềm</a>
-                                            <ul class="menu-3 hidden-xs hidden-sm">
+                                            <ul class="menu-3 hidden-sm">
                                                 <li><a href="@Url.Action("DsNhahang","Home")">Phần mềm quản lý nhà hàng</a></li>
                                                 <li><a href="@Url.Action("DsKaraoke","Home")">Phần mềm quản lý Karaoke</a></li>
                                                 <li><a href="@Url.Action("DsBanhang","Home")">Phần mềm quản lý bán hàng</a></li>
@@ -92,7 +94,7 @@
                                         </li>
                                         <li>
                                             <a href="@Url.Action("SvMarketingonline","Home")">Marketing Online</a>
-                                            <ul class="menu-3 hidden-xs hidden-sm">
+                                            <ul class="menu-3 hidden-sm">
                                                 <li><a href="@Url.Action("MoQuantriweb","Home")">Quản trị website</a></li>
                                                 <li><a href="@Url.Action("MoQuantrifanpage","Home")">Quản trị fanpage facebook</a></li>
                                                 <li><a href="@Url.Action("MoGoogleadwords","Home")">Google Adwords</a></li>
@@ -103,7 +105,7 @@
                                         </li>
                                         <li>
                                             <a href="@Url.Action("SvDichvukhac","Home")">Dịch vụ khác</a>
-                                            <ul class="menu-3 hidden-xs hidden-sm">
+                                            <ul class="menu-3 hidden-sm">
                                                 <li><a href="@Url.Action("OsPoster","Home")">Thiết kế poster, banner, ảnh</a></li>
                                                 <li><a href="@Url.Action("OsCard","Home")">Thiết kế card visit, biển hiệu</a></li>
                                                 <li><a href="@Url.Action("OsBangron","Home")">Thiết kế băng rôn, khẩu ngữ</a></li>
@@ -123,6 +125,36 @@
                 <div class="suicide hidden-xs hidden-sm col-md-3">
                     <a href="#">Đăng kí tư vấn</a>
                 </div>
+            </div>
+            <div class="menu-mobile col-xs-12 hidden-sm hidden-md hidden-lg">
+                <nav class="navbar navbar-inverse" role="navigation">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbarMobile">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="@Url.Action("Index","Home")">Menu</a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="myNavbarMobile">
+                            <ul class="menu-1 nav navbar-nav">
+                                <li class="active"><a href="@Url.Action("Index","Home")">Trang chủ</a></li>
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Dịch vụ</a>
+                                    <ul class="menu-2 dropdown-menu">
+                                        <li><a href="@Url.Action("SvThietkewebsite","Home")">Thiết kế website</a></li>
+                                        <li><a href="@Url.Action("SvThietkephanmem","Home")">Thiết kế phần mềm</a></li>
+                                        <li><a href="@Url.Action("SvMarketingonline","Home")">Marketing Online</a></li>
+                                        <li><a href="@Url.Action("SvDichvukhac","Home")">Dịch vụ khác</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="@Url.Action("About","Home")">Giới thiệu</a></li>
+                                <li><a href="#">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
             </div>
         </div>
     </header>

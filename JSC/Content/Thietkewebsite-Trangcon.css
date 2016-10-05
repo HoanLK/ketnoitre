@@ -357,7 +357,7 @@
                     color: rgb(184, 224, 241);
                     text-transform: uppercase;
                     text-align: center;
-                    padding: 1em 2em 1em 2em;
+                    padding: 2em 2em 1em 2em;
                 }
 
                     .website-design > .info > div > .address > p > span {
@@ -411,7 +411,7 @@
                     font-family: Roboto-Light;
                     color: rgb(255, 255, 255);
                     text-shadow: 0 -1px 0 rgb(0, 0, 0);
-                    padding-top: 1.5em 2em 1em 2em;
+                    padding: 1.5em 2em 1em 2em;
                 }
 
                     .website-design > .info > div > .advice > p:after {
@@ -429,7 +429,7 @@
                     .website-design > .info > div > .advice > form > input {
                         height: 3em;
                         border-radius: 3em;
-                        margin: 3em 0em 2em 0em;
+                        margin: 1em 0em 1em 0em;
                     }
 
                     .website-design > .info > div > .advice > form > a {
@@ -441,10 +441,11 @@
                         border-radius: 2em;
                         background: linear-gradient(to bottom,#a2d90c 0,#89bb00 100%) 0 0/100% 100%;
                         transition: all .4s linear;
-                        width: 9em;
+                        width: 50%;
                         text-decoration: none;
-                        margin-top: 0.4em;
-                        left: -1.5em;
+                        left: 25%;
+                        margin: 0;
+                        text-align: center;
                     }
 
                         .website-design > .info > div > .advice > form > a:hover {
@@ -473,7 +474,6 @@
                     line-height: 1.7em;
                     color: rgb(184, 224, 241);
                     padding: 1.5em;
-                    margin-top: 2em;
                 }
 
                 .website-design > .info > div > .train > a {
