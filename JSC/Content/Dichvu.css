@@ -818,7 +818,10 @@
 
             /* Icon dịch vụ */
             .service > .content > .detail > a {
-                margin-left: 4.5em;
+                padding: 0;
+                left: 10%;
+                width: 80%;
+                height: 80%;
             }
 
                 .service > .content > .detail > a > img {
@@ -874,7 +877,7 @@
             /* Dịch vụ chi tiết */
             .service > .content > .detail > ul {
                 margin-top: 2em;
-                text-align: left;
+                text-align: center;
                 padding: 0;
             }
 
@@ -886,19 +889,20 @@
                     content: "";
                     background: url(../images/Services/content-more.png) no-repeat;
                     position: absolute;
-                    left: 1.5em;
-                    top: -1em;
-                    width: 20em;
-                    height: 2em;
+                    top: -5%;
+                    width: 100%;
+                    height: 15%;
+                    left: 0;
                 }
 
                 .service > .content > .detail > ul > li {
                     padding-top: 0.5em;
-                    margin: 0em 0em 0em 2em;
+                    margin: 0;
+                    text-align: left;
                 }
 
                     .service > .content > .detail > ul > li > a {
-                        font-size: 1.3em;
+                        font-size: 120%;
                     }
 
                         .service > .content > .detail > ul > li > a:before {

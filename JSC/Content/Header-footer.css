@@ -23,313 +23,284 @@
     src: url('../fonts/Roboto-Black.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.ttf') format('truetype');
+}
+
 body {
     padding: 0;
     margin: 0;
 }
 
-.header {
-    border-top: 4px solid rgb(0,120,174);
-    z-index: 1000;
-    padding: 0 !important;
-}
-
-.navbar-inverse {
-    margin: 0 !important;
-}
 
 header {
-    border-top: 4px solid rgb(0,120,174);
-    box-shadow: 0 3px 3px rgba(132,136,138,.1);
-    padding: 5px 0px 0px 0px;
+    padding: 0 !important;
+    position: absolute;
+    border-top: 0.3em solid rgb(0, 120, 174);
+    box-shadow: 0 3px 3px rgba(132,136,138,.5);
 }
 
-    header > .header-logo {
-        padding: 0;
+    header > .desktop {
+        padding: 0.5em 0em 0em 0em;
     }
 
-        header > .header-logo > div {
-            padding: 0em 0em 0.6em 0em;
-        }
-
-            header > .header-logo > div > a {
-                text-decoration: none;
-            }
-
-                header > .header-logo > div > a > img {
-                    width: 22.5%;
-                    padding: 0.5em 1em 0em 0em;
-                }
-
-                header > .header-logo > div > a > .header-logo-text-line-1 {
-                    font-family: arial;
-                    font-size: 2.5em;
-                    font-weight: bold;
-                    color: rgb(66,89,159);
-                    padding: 0.3em 0em 0em 0em;
-                    margin: 0;
-                }
-
-                header > .header-logo > div > a > .header-logo-text-line-2 {
-                    font-family: arial;
-                    font-size: 1.6em;
-                    color: rgb(45,138,166);
-                    padding: 0;
-                    margin: 0;
-                }
-
-
-    /*Phần menu*/
-    header > .menu {
-        margin: 0;
-        padding: 0;
-    }
-
-        header > .menu > .menu-1 {
-            margin: 0;
-            padding: 0.6em 0em 0em 4.3em;
-        }
-
-            header > .menu > .menu-1 > ul {
-                width: 24.2em;
-                padding: 0;
-                margin-right: -1em;
-            }
-
-                header > .menu > .menu-1 > ul > li {
-                    list-style: none;
-                    padding: 0;
-                    margin: 0;
-                    text-align: right;
-                }
-
-                    header > .menu > .menu-1 > ul > li > a {
-                        text-decoration: none;
-                        color: rgb(117,117,117);
-                        font-family: arial;
-                        font-size: 1em;
-                    }
-
-                        header > .menu > .menu-1 > ul > li > a:hover {
-                            color: rgb(74,166,189);
-                        }
-
-            header > .menu > .menu-1 > .header-search {
-                border-left: 1px solid rgb(181,181,181);
-                border-right: 1px solid rgb(181,181,181);
-                width: 12em;
-                padding: -0.2em 0em 0em 0.6em;
-            }
-
-                header > .menu > .menu-1 > .header-search > .header-txt-search {
-                    width: 8em;
-                }
-
-                header > .menu > .menu-1 > .header-search > .header-btn-search {
-                    padding: 0;
-                    padding-left: 0.2em;
-                }
-
-                    header > .menu > .menu-1 > .header-search > .header-btn-search > img {
-                    }
-
-            header > .menu > .menu-1 > .header-phone {
-                text-decoration: none;
-                font-weight: bold;
-                color: rgb(91,91,91);
-            }
-
-                header > .menu > .menu-1 > .header-phone > img {
-                    margin-top: -5px;
-                    padding: 0.4em 0.3em;
-                }
-
-
-        /*Menu thứ 2*/
-        header > .menu > .menu-2 {
-            width: 100%;
-            height: 2.5em;
+        /*Logo*/
+        header > .desktop > a {
             padding: 0;
-            margin: 1.5em 0em 0em 0em;
         }
 
-            header > .menu > .menu-2 > nav {
+            header > .desktop > a > img {
                 padding: 0;
-                margin: 0;
-                background: rgb(255, 255, 255);
-                border: none;
-                float: left;
-                width: 70%;
+                width: 5.8em;
             }
 
-                header > .menu > .menu-2 > nav > .container-fluid {
-                    padding: 0;
+            header > .desktop > a > p {
+                font-family: Roboto-Bold;
+                font-size: 2.7em;
+                color: rgb(0, 120, 174);
+                line-height: 0.8em;
+                margin: 0.5em 0em 0em 0em;
+                padding: 0em 0em 0em 0.3em;
+            }
+
+                header > .desktop > a > p > span {
+                    font-family: Roboto-Light;
+                    font-size: 0.6em;
                 }
 
-                    /*Khung chứa menu*/
-                    header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse {
-                        text-align: center;
-                        padding: 0;
+        header > .desktop > .menu {
+            padding: 0;
+        }
+
+            /*Menu dòng 1*/
+            header > .desktop > .menu > .menu-1 {
+                display: inline;
+                padding: 0em 0em 0em 6.1em;
+            }
+
+                /*Các mục menu*/
+                header > .desktop > .menu > .menu-1 > ul {
+                    display: inline-block;
+                    border-right: 1px solid rgb(218, 218, 218);
+                    padding: 0.5em 0.4em 0.5em 0em;
+                }
+
+                    header > .desktop > .menu > .menu-1 > ul > li {
+                        display: inline;
+                        padding: 0em 0.5em;
                     }
 
-                        /*Menu tầng 1*/
-                        header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 {
-                            list-style: none;
-                            width: 100%;
-                            padding: 0;
+                        header > .desktop > .menu > .menu-1 > ul > li > a {
+                            font-family: Roboto-Light;
+                            font-size: 0.95em;
+                            text-align: center;
+                            text-decoration: none;
+                            color: rgb(117,117,117);
+                            transition: color .3s ease-out, background-color .3s ease-out;
                         }
 
-                            header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li {
-                                list-style: none;
-                                width: 26%;
-                                padding: 0;
-                                margin: 0em -0.5em 0em 0em;
+                            header > .desktop > .menu > .menu-1 > ul > li > a:hover {
+                                color: rgb(0, 157, 220);
                             }
 
-                                header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > a {
-                                    font-family: Roboto-Medium;
-                                    font-size: 1.3em;
-                                    color: rgb(90,96,99);
-                                    text-transform: uppercase;
-                                    text-decoration: none;
-                                    background: rgb(255, 255, 255);
-                                    padding: 0.5em 1em 0.5em 1em;
-                                }
-
-                                    header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > a:hover {
-                                        color: rgb(0,120,174);
-                                    }
-
-                                /*Menu tầng 2*/
-                                header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 {
-                                    background: rgb(255, 255, 255);
-                                    border: solid rgb(0, 157, 220);
-                                    border-width: 3px 0;
-                                    box-shadow: 0 3px 3px 1px rgba(213,223,228,1);
-                                    z-index: 99;
-                                    width: auto;
-                                    list-style: none;
-                                    padding: 0;
-                                    top: 2.55em;
-                                    left: 5em;
-                                    text-align: left;
-                                    transform: translateX(-49.9%);
-                                    transition: all .1s linear;
-                                }
-
-                                    header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2:before {
-                                        content: "";
-                                        width: 1.3em;
-                                        height: 1.3em;
-                                        background-color: rgb(0, 157, 220);
-                                        position: absolute;
-                                        top: -7px;
-                                        left: 50%;
-                                        transform: translateX(-50%) rotate(45deg);
-                                        z-index: 1;
-                                    }
-
-                                header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li:hover > .menu-2 {
-                                    display: block;
-                                }
-
-                                header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li {
-                                    width: auto;
-                                    max-width: 100%;
-                                    white-space: nowrap;
-                                    position: relative;
-                                    z-index: 2;
-                                    border-bottom: 1px solid rgb(227, 227, 227);
-                                }
-
-                                    header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > a {
-                                        background: rgb(255, 255, 255);
-                                        display: block;
-                                        font-family: Roboto-Medium;
-                                        font-size: 1.2em;
-                                        color: rgb(0, 157, 220);
-                                        padding: 1em 2em;
-                                        transition: all .1s linear;
-                                        text-decoration: none;
-                                    }
-
-                                        header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > a:hover {
-                                            background: rgb(0, 157, 220);
-                                            color: rgb(255, 255, 255);
-                                        }
-
-
-                                    /*Menu tầng 3*/
-                                    header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > .menu-3 {
-                                        background-color: rgb(250, 250, 250);
-                                        border-left: 5px solid rgb(0, 170, 238);
-                                        position: absolute;
-                                        top: 0;
-                                        left: 100%;
-                                        box-shadow: 0 1px 2px 0px rgba(213,223,228,.7);
-                                        transition: all .1s linear;
-                                        z-index: 1;
-                                        width: auto;
-                                        display: none;
-                                        padding: 0;
-                                        margin-left: auto;
-                                    }
-
-                                    header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li:hover > .menu-3 {
-                                        display: block;
-                                    }
-
-                                    header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > .menu-3 > li {
-                                        background-color: rgb(250, 250, 250);
-                                        max-width: 100%;
-                                        transition: background-color .1s linear,opacity .1s linear;
-                                        list-style: none;
-                                    }
-
-                                        header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > .menu-3 > li > a {
-                                            font-family: Roboto-Regular;
-                                            font-size: 1.1em;
-                                            color: rgb(90, 96, 99);
-                                            padding: 15px 25px;
-                                            transition: all .1s linear;
-                                            display: block;
-                                            text-decoration: none;
-                                            border-bottom: 1px solid rgb(227, 227, 227);
-                                        }
-
-                                            header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > .menu-3 > li > a:hover {
-                                                color: rgb(144, 196, 4);
-                                                background: rgb(255, 255, 255);
-                                                border-bottom: 1px solid rgb(144, 196, 4);
-                                            }
-
-            /*Nút đăng ký tư vấn*/
-            header > .menu > .menu-2 > .suicide {
-                border-left: 0.1em solid rgb(117,117,117);
-                float: left;
-                height: 3.5em;
-            }
-
-                header > .menu > .menu-2 > .suicide > a {
-                    font-family: Roboto-Black;
-                    font-size: 1em;
-                    color: rgb(144,196,4);
-                    text-decoration: none;
-                    text-transform: uppercase;
-                    transition: color .3s;
+                /*Tìm kiếm*/
+                header > .desktop > .menu > .menu-1 > .search {
+                    display: inline;
+                    padding: 0em 0em 0em 0.7em;
                 }
 
-                    header > .menu > .menu-2 > .suicide > a::after {
-                        content: "\bb";
-                        padding-left: 0.2em;
-                        top: 0.08em;
-                        font-size: 2em;
-                        position: relative;
+                    header > .desktop > .menu > .menu-1 > .search > input {
+                        width: 8em;
+                        display: inline-block;
                     }
 
-                    header > .menu > .menu-2 > .suicide > a:hover {
-                        color: rgb(0,120,174);
+                    header > .desktop > .menu > .menu-1 > .search > .button {
+                        background: url(../images/icon.png) -15.7em 0 no-repeat;
+                        position: absolute;
+                        width: 2em;
+                        height: 1.9em;
+                        color: transparent;
+                        margin: 0.25em 0em 0em 0em;
                     }
+
+                /*Số điện thoại*/
+                header > .desktop > .menu > .menu-1 > .phone {
+                    font-family: Roboto-Bold;
+                    color: rgb(90, 96, 99);
+                    text-decoration: none;
+                    margin: 0em 0em 0em 2.6em;
+                    padding: 0.5em 0em 0.5em 0.7em;
+                    border-left: 1px solid rgb(218, 218, 218);
+                    display: inline;
+                    transition: color .3s ease-out, background-color .3s ease-out;
+                }
+
+                    header > .desktop > .menu > .menu-1 > .phone:hover {
+                        color: rgb(0, 157, 220);
+                    }
+
+                    header > .desktop > .menu > .menu-1 > .phone > em {
+                        background: url(../images//icon.png) no-repeat;
+                        width: 1.6em;
+                        height: 1.8em;
+                        display: inline-block;
+                        vertical-align: middle;
+                    }
+
+            /*Menu dòng 2*/
+            header > .desktop > .menu > .menu-2 {
+                padding: 0;
+                margin: 0.7em 0em 0em 0em;
+            }
+
+                header > .desktop > .menu > .menu-2 > li {
+                    display: inline;
+                }
+
+                    header > .desktop > .menu > .menu-2 > li > a {
+                        font-family: Roboto-Medium;
+                        font-size: 1.25em;
+                        color: rgb(90, 96, 99);
+                        text-transform: uppercase;
+                        display: inline-block;
+                        text-align: center;
+                        width: 7em;
+                        text-decoration: none;
+                        transition: color .3s ease-out, background-color .3s ease-out;
+                        padding: 0.3em 0.3em 0.5em 0.3em;
+                    }
+
+                        header > .desktop > .menu > .menu-2 > li > a:hover {
+                            color: rgb(0, 157, 220);
+                        }
+
+                    /*Menu tầng 2*/
+                    header > .desktop > .menu > .menu-2 > li > .lvl-2 {
+                        background: rgb(255, 255, 255);
+                        border: solid rgb(0, 157, 220);
+                        border-width: 0.25em 0;
+                        box-shadow: 0 0.3em 0.3em 0.1em rgba(213,223,228,1);
+                        position: absolute;
+                        z-index: 5;
+                        width: 18em;
+                        list-style: none;
+                        padding: 0;
+                        top: 2.55em;
+                        left: 13.5em;
+                        text-align: left;
+                        transform: translateX(-49.9%);
+                        transition: all .1s linear;
+                        display: none;
+                    }
+
+                        header > .desktop > .menu > .menu-2 > li > .lvl-2:before {
+                            content: "";
+                            width: 1.3em;
+                            height: 1.3em;
+                            background-color: rgb(0, 157, 220);
+                            position: absolute;
+                            top: -0.6em;
+                            left: 50%;
+                            transform: translateX(-50%) rotate(45deg);
+                            z-index: 1;
+                        }
+
+                    header > .desktop > .menu > .menu-2 > li:hover > .lvl-2 {
+                        display: block;
+                    }
+
+                    header > .desktop > .menu > .menu-2 > li > .lvl-2 > li {
+                        width: 100%;
+                        max-width: 100%;
+                        white-space: nowrap;
+                        position: relative;
+                        z-index: 2;
+                        border-bottom: 1px solid rgb(227, 227, 227);
+                    }
+
+                        header > .desktop > .menu > .menu-2 > li > .lvl-2 > li > a {
+                            background: rgb(255, 255, 255);
+                            display: block;
+                            font-family: Roboto-Medium;
+                            font-size: 1.2em;
+                            color: rgb(0, 157, 220);
+                            padding: 1em 2em;
+                            transition: all .1s linear;
+                            text-decoration: none;
+                        }
+
+                            header > .desktop > .menu > .menu-2 > li > .lvl-2 > li > a:hover {
+                                background: rgb(0, 157, 220);
+                                color: rgb(255, 255, 255);
+                            }
+
+                        /*Menu tầng 3*/
+                        header > .desktop > .menu > .menu-2 > li > .lvl-2 > li > .lvl-3 {
+                            background-color: rgb(250, 250, 250);
+                            border-left: 5px solid rgb(0, 170, 238);
+                            position: absolute;
+                            top: 0;
+                            left: 100%;
+                            box-shadow: 0 1px 2px 0px rgba(213,223,228,.7);
+                            transition: all .1s linear;
+                            z-index: 1;
+                            width: auto;
+                            display: none;
+                            padding: 0;
+                            margin-left: auto;
+                            display: none;
+                        }
+
+                        header > .desktop > .menu > .menu-2 > li > .lvl-2 > li:hover > .lvl-3 {
+                            display: block;
+                        }
+
+                        header > .desktop > .menu > .menu-2 > li > .lvl-2 > li > .lvl-3 > li {
+                            background-color: rgb(250, 250, 250);
+                            max-width: 100%;
+                            transition: background-color .1s linear,opacity .1s linear;
+                            list-style: none;
+                        }
+
+                            header > .desktop > .menu > .menu-2 > li > .lvl-2 > li > .lvl-3 > li > a {
+                                font-family: Roboto-Regular;
+                                font-size: 1.1em;
+                                color: rgb(90, 96, 99);
+                                padding: 15px 25px;
+                                transition: all .1s linear;
+                                display: block;
+                                text-decoration: none;
+                                border-bottom: 1px solid rgb(227, 227, 227);
+                            }
+
+                                header > .desktop > .menu > .menu-2 > li > .lvl-2 > li > .lvl-3 > li > a:hover {
+                                    color: rgb(144, 196, 4);
+                                    background: rgb(255, 255, 255);
+                                    border-bottom: 1px solid rgb(144, 196, 4);
+                                }
+
+                    /*Nút đăng ký tư vấn*/
+                    header > .desktop > .menu > .menu-2 > li > .suicide {
+                        font-family: Roboto-Black;
+                        color: rgb(144, 196, 4);
+                        width: 11.5em;
+                        border-left: 1px solid rgb(218, 218, 218);
+                    }
+
+                        header > .desktop > .menu > .menu-2 > li > .suicide::after {
+                            content: "»";
+                            font: 1.7em/0em Roboto-Black,Arial;
+                            padding-left: 0.2em;
+                            vertical-align: -0.1em;
+                            position: relative;
+                            left: 0;
+                            transition: left .2s linear;
+                        }
+
+                        header > .desktop > .menu > .menu-2 > li > .suicide:hover:after {
+                            left: 0.1em;
+                        }
 
 
 /*Footer*/
@@ -416,105 +387,392 @@ footer {
 /*Giap diện cho màn hình tablet*/
 @media (min-width: 768px) and (max-width: 991px) {
 
-    /*Logo trên cùng*/
-    header > .header-logo {
-        height: 1%;
-        overflow: hidden;
-        padding: 0.5em 0em 0em 1em;
+    .fixed {
+        position: fixed;
+        top: 0;
+        height: 80px;
+        z-index: 1;
     }
 
-        header > .header-logo > div {
-            padding: 0;
+    header {
+        position: static;
+        z-index: 2;
+        margin-bottom: 2em;
+    }
+
+    /*Phần logo*/
+    .mobile {
+        height: 150px;
+    }
+
+        .mobile .logo {
+            width: 100%;
+            text-decoration: none;
         }
 
-            header > .header-logo > div > a {
+            .mobile .logo img {
+                width: 17%;
+                margin: 0.5em 1.5em;
+                float: left;
             }
 
-                header > .header-logo > div > a > img {
-                    width: 18%;
-                    height: 10em;
-                    padding: 0;
-                    margin-right: 1em;
-                }
+            .mobile .logo p {
+                font-family: Roboto-Bold;
+                font-size: 3.5em;
+                padding: 0.5em 0em 0em 0em;
+                line-height: 1em;
+            }
 
-                header > .header-logo > div > a > .header-logo-text-line-1 {
-                    font-size: 4em;
-                    padding: 0;
-                    padding-top: 5px;
+                .mobile .logo p span {
+                    font-family: Roboto-Light;
+                    font-size: 0.8em;
                 }
-
-                header > .header-logo > div > a > .header-logo-text-line-2 {
-                    font-size: 2.5em;
-                }
-
 
     /*Phần menu*/
-    header > .menu {
+    .dl-menuwrapper {
+        width: 100%;
+        height: 80px;
+        float: left;
+        position: relative;
+        -webkit-perspective: 1000px;
+        perspective: 1000px;
+        -webkit-perspective-origin: 50% 200%;
+        perspective-origin: 50% 200%;
+        box-shadow: 0 3px 3px rgba(132,136,138,.1);
+        background: rgb(255, 255, 255);
+    }
+
+        .dl-menuwrapper:first-child {
+            margin-right: 0;
+        }
+
+        .dl-menuwrapper div {
+            width: 84%;
+            float: right;
+        }
+
+            .dl-menuwrapper div .phone {
+                width: 80%;
+                display: block;
+                font-family: Roboto-Bold;
+                font-size: 4em;
+                color: rgb(0, 120, 174);
+                text-align: center;
+                text-decoration: none;
+                padding: 0;
+            }
+
+            .dl-menuwrapper div .search {
+                background: url(../images/icon.png) -21px 0 no-repeat;
+                width: 4em;
+                height: 4em;
+                position: absolute;
+                color: transparent;
+                right: 1em;
+                top: 1em;
+                margin: 0;
+                background-position: -60px 0;
+                background-size: 4700%;
+            }
+
+                .dl-menuwrapper div .search:before {
+                    border-left: 1px solid #dadada;
+                    content: "";
+                    height: 5em;
+                    position: absolute;
+                    top: -1em;
+                    left: -1.5em;
+                    width: 0;
+                }
+
+        .dl-menuwrapper button {
+            background: rgb(255, 255, 255);
+            border: none;
+            width: 11%;
+            height: 5em;
+            text-indent: -900em;
+            overflow: hidden;
+            position: relative;
+            cursor: pointer;
+            outline: none;
+            border-right: 1px solid rgb(218, 218, 218);
+        }
+
+            .dl-menuwrapper button:hover,
+            .dl-menuwrapper button.dl-active,
+            .dl-menuwrapper ul {
+                background: rgb(255, 255,255);
+            }
+
+            .dl-menuwrapper button:after {
+                content: '';
+                position: absolute;
+                width: 70%;
+                height: 10%;
+                background: rgb(0, 120, 174);
+                top: 35%;
+                left: 15%;
+                box-shadow: 0 10px 0 rgb(0, 120, 174), 0 20px 0 rgb(0, 120, 174);
+            }
+
+        .dl-menuwrapper ul {
+            padding: 0;
+            list-style: none;
+            -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+            background: rgb(0, 120, 174);
+        }
+
+        .dl-menuwrapper li {
+            position: relative;
+        }
+
+            .dl-menuwrapper li a {
+                display: block;
+                position: relative;
+                padding: 1em 1em;
+                font-size: 2.2em;
+                line-height: 20px;
+                font-weight: 300;
+                color: #fff;
+                outline: none;
+                text-decoration: none;
+            }
+
+            .dl-menuwrapper li.dl-back > a {
+                padding-left: 1.5em;
+                background: rgba(0,0,0,0.1);
+            }
+
+            .dl-menuwrapper li.dl-back:after,
+            .dl-menuwrapper li > a:not(:only-child):after {
+                position: absolute;
+                top: 0;
+                font-family: 'icomoon';
+                speak: none;
+                -webkit-font-smoothing: antialiased;
+                content: "\e000";
+            }
+
+            .dl-menuwrapper li.dl-back:after {
+                left: 10px;
+                color: rgba(212,204,198,0.3);
+                -webkit-transform: rotate(180deg);
+                transform: rotate(180deg);
+                line-height: 3em;
+                font-size: 2em;
+            }
+
+            .dl-menuwrapper li > a:after {
+                right: 10px;
+                color: rgba(0,0,0,0.15);
+                line-height: 2.2em;
+                font-size: 1.2em;
+            }
+
+        .dl-menuwrapper .dl-menu {
+            margin: 0.5em 0 0 0;
+            position: absolute;
+            width: 100%;
+            opacity: 0;
+            pointer-events: none;
+            -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+
+            .dl-menuwrapper .dl-menu.dl-menu-toggle {
+                transition: all 0.3s ease;
+            }
+
+            .dl-menuwrapper .dl-menu.dl-menuopen {
+                opacity: 1;
+                pointer-events: auto;
+                -webkit-transform: translateY(0px);
+                transform: translateY(0px);
+            }
+
+        /* Hide the inner submenus */
+        .dl-menuwrapper li .dl-submenu {
+            display: none;
+        }
+
+    /* 
+When a submenu is openend, we will hide all li siblings.
+For that we give a class to the parent menu called "dl-subview".
+We also hide the submenu link. 
+The opened submenu will get the class "dl-subviewopen".
+All this is done for any sub-level being entered.
+*/
+    .dl-menu.dl-subview li,
+    .dl-menu.dl-subview li.dl-subviewopen > a,
+    .dl-menu.dl-subview li.dl-subview > a {
+        display: none;
+    }
+
+        .dl-menu.dl-subview li.dl-subview,
+        .dl-menu.dl-subview li.dl-subview .dl-submenu,
+        .dl-menu.dl-subview li.dl-subviewopen,
+        .dl-menu.dl-subview li.dl-subviewopen > .dl-submenu,
+        .dl-menu.dl-subview li.dl-subviewopen > .dl-submenu > li {
+            display: block;
+        }
+
+    /* Dynamically added submenu outside of the menu context */
+    .dl-menuwrapper > .dl-submenu {
+        position: absolute;
+        width: 100%;
+        top: 50px;
+        left: 0;
         margin: 0;
     }
 
-        header > .menu > .menu-2 {
-            height: 3em;
-            margin-top: 3em 0em 0em 0em;
+    /* Animation classes for moving out and in */
+
+    .dl-menu.dl-animate-out-5 {
+        -webkit-animation: MenuAnimOut5 0.4s ease;
+        animation: MenuAnimOut5 0.4s ease;
+    }
+
+    @-webkit-keyframes MenuAnimOut5 {
+        0% {
         }
 
-            header > .menu > .menu-2 > nav {
-                width: 100%;
-            }
+        100% {
+            -webkit-transform: translateY(40%);
+            opacity: 0;
+        }
+    }
 
-                header > .menu > .menu-2 > nav > .container-fluid {
-                }
+    @keyframes MenuAnimOut5 {
+        0% {
+        }
 
-                    /*Khung chứa menu*/
-                    header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse {
-                    }
+        100% {
+            -webkit-transform: translateY(40%);
+            transform: translateY(40%);
+            opacity: 0;
+        }
+    }
 
-                        /*Menu tầng 1*/
-                        header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 {
-                            margin: 0em -3em 0em 0em;
-                        }
+    .dl-menu.dl-animate-in-5 {
+        -webkit-animation: MenuAnimIn5 0.4s ease;
+        animation: MenuAnimIn5 0.4s ease;
+    }
 
-                            header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li {
-                                width: 25%;
-                            }
+    @-webkit-keyframes MenuAnimIn5 {
+        0% {
+            -webkit-transform: translateY(40%);
+            opacity: 0;
+        }
 
-                                header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > a {
-                                    font-size: 2em;
-                                    padding: 0em;
-                                }
+        100% {
+            -webkit-transform: translateY(0);
+            opacity: 1;
+        }
+    }
 
-                                /*Menu tầng 2*/
-                                header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 {
-                                }
+    @keyframes MenuAnimIn5 {
+        0% {
+            -webkit-transform: translateY(40%);
+            transform: translateY(40%);
+            opacity: 0;
+        }
 
-                                    header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2:before {
-                                    }
+        100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
 
-                                header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li:hover > .menu-2 {
-                                }
+    .dl-menuwrapper > .dl-submenu.dl-animate-in-5 {
+        -webkit-animation: SubMenuAnimIn5 0.4s ease;
+        animation: SubMenuAnimIn5 0.4s ease;
+    }
 
-                                header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li {
-                                }
+    @-webkit-keyframes SubMenuAnimIn5 {
+        0% {
+            -webkit-transform: translateZ(-200px);
+            opacity: 0;
+        }
 
-                                    header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > a {
-                                    }
+        100% {
+            -webkit-transform: translateZ(0);
+            opacity: 1;
+        }
+    }
 
-                                        header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > a:hover {
-                                        }
+    @keyframes SubMenuAnimIn5 {
+        0% {
+            -webkit-transform: translateZ(-200px);
+            transform: translateZ(-200px);
+            opacity: 0;
+        }
+
+        100% {
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            opacity: 1;
+        }
+    }
+
+    .dl-menuwrapper > .dl-submenu.dl-animate-out-5 {
+        -webkit-animation: SubMenuAnimOut5 0.4s ease;
+        animation: SubMenuAnimOut5 0.4s ease;
+    }
+
+    @-webkit-keyframes SubMenuAnimOut5 {
+        0% {
+            -webkit-transform: translateZ(0);
+            opacity: 1;
+        }
+
+        100% {
+            -webkit-transform: translateZ(-200px);
+            opacity: 0;
+        }
+    }
 
 
-                                    /*Menu tầng 3*/
-                                    header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > .menu-3 {
-                                    }
+    @keyframes SubMenuAnimOut5 {
+        0% {
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            opacity: 1;
+        }
 
-                                    header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li:hover > .menu-3 {
-                                    }
+        100% {
+            -webkit-transform: translateZ(-200px);
+            transform: translateZ(-200px);
+            opacity: 0;
+        }
+    }
 
-                                    header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > .menu-3 > li {
-                                    }
+    /* No JS Fallback */
+    .no-js .dl-menuwrapper .dl-menu {
+        position: relative;
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
 
-                                        header > .menu > .menu-2 > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > .menu-3 > li > a {
-                                        }
+    .no-js .dl-menuwrapper li .dl-submenu {
+        display: block;
+    }
+
+    .no-js .dl-menuwrapper li.dl-back {
+        display: none;
+    }
+
+    .no-js .dl-menuwrapper li > a:not(:only-child) {
+        background: rgba(0,0,0,0.1);
+    }
+
+        .no-js .dl-menuwrapper li > a:not(:only-child):after {
+            content: '';
+        }
 
     /*Footer*/
     footer {
@@ -537,159 +795,388 @@ footer {
 
 /*Giao diện cho màn hình điện thoại*/
 @media (max-width: 767px) {
+    .fixed {
+                position: fixed;
+                top: 0;
+                height: 50px;
+                z-index: 1;
+            }
+    
 
-    /*Logo trên cùng*/
-    header > .header-logo {
-        height: 1%;
-        overflow: hidden;
-        padding: 0.5em 0em 0em 1em;
+    header {
+        position: static;
+        z-index: 2;
     }
 
-        header > .header-logo > div {
-            padding: 0;
+    /*Phần logo*/
+    .mobile {
+        height: 65px;
+    }
+
+        .mobile .logo {
+            width: 100%;
+            text-decoration: none;
         }
 
-            header > .header-logo > div > a {
+            .mobile .logo p {
+                font-family: Roboto-Bold;
+                font-size: 1.5em;
+                padding: 0.5em 0em 0em 0em;
+                line-height: 1em;
             }
 
-                header > .header-logo > div > a > img {
-                    width: 22%;
-                    padding: 0;
-                    margin-right: 1em;
+                .mobile .logo p span {
+                    font-family: Roboto-Light;
+                    font-size: 0.8em;
                 }
 
-                header > .header-logo > div > a > .header-logo-text-line-1 {
-                    font-size: 2em;
-                    padding: 5px 0px 0px 0px;
-                }
-
-                header > .header-logo > div > a > .header-logo-text-line-2 {
-                    font-size: 1.2em;
-                }
+            .mobile .logo img {
+                width: 17%;
+                margin: 0.2em 0.5em;
+                float: left;
+            }
 
     /*Phần menu*/
-    header > .menu {
+    .dl-menuwrapper {
+        width: 100%;
+        height: 50px;
+        float: left;
+        position: relative;
+        -webkit-perspective: 1000px;
+        perspective: 1000px;
+        -webkit-perspective-origin: 50% 200%;
+        perspective-origin: 50% 200%;
+        box-shadow: 0 3px 3px rgba(132,136,138,.1);
+        background: rgb(255, 255, 255);
     }
 
-        header > .menu > .menu-mobile {
-            width: 100%;
-            height: 1%;
-            overflow: hidden;
-            padding: 0;
-            margin: 1.5em 0em 0em 0em;
+        .dl-menuwrapper:first-child {
+            margin-right: 0;
         }
 
-            header > .menu > .menu-mobile > nav {
-                width: 100%;
+        .dl-menuwrapper div {
+            width: 84%;
+            float: right;
+        }
+
+            .dl-menuwrapper div .phone {
+                width: 80%;
+                display: block;
+                font-family: Roboto-Bold;
+                font-size: 2em;
+                color: rgb(0, 120, 174);
+                text-align: center;
+                text-decoration: none;
+                padding: 0.2em 0em 0.1em 0em;
+            }
+
+            .dl-menuwrapper div .search {
+                background: url(../images/icon.png) -21px 0 no-repeat;
+                width: 1.8em;
+                height: 1.8em;
+                position: absolute;
+                color: transparent;
+                right: 1em;
+                top: 1em;
+                margin: 0;
+                background-position: -222px 0;
+            }
+
+                .dl-menuwrapper div .search:before {
+                    border-left: 1px solid #dadada;
+                    content: "";
+                    height: 3.3em;
+                    position: absolute;
+                    top: -1em;
+                    left: -1em;
+                    width: 0;
+                }
+
+        .dl-menuwrapper button {
+            background: rgb(255, 255, 255);
+            border: none;
+            width: 16%;
+            height: 3.2em;
+            text-indent: -900em;
+            overflow: hidden;
+            position: relative;
+            cursor: pointer;
+            outline: none;
+            border-right: 1px solid rgb(218, 218, 218);
+        }
+
+            .dl-menuwrapper button:hover,
+            .dl-menuwrapper button.dl-active,
+            .dl-menuwrapper ul {
+                background: rgb(255, 255,255);
+            }
+
+            .dl-menuwrapper button:after {
+                content: '';
+                position: absolute;
+                width: 70%;
+                height: 10%;
                 background: rgb(0, 120, 174);
-                padding: 0;
-                border: none;
+                top: 20%;
+                left: 15%;
+                box-shadow: 0 10px 0 rgb(0, 120, 174), 0 20px 0 rgb(0, 120, 174);
             }
 
-            header > .menu > .menu-mobile > navbar {
+        .dl-menuwrapper ul {
+            padding: 0;
+            list-style: none;
+            -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+            background: rgb(0, 120, 174);
+        }
+
+        .dl-menuwrapper li {
+            position: relative;
+        }
+
+            .dl-menuwrapper li a {
+                display: block;
+                position: relative;
+                padding: 15px 20px;
+                font-size: 16px;
+                line-height: 20px;
+                font-weight: 300;
+                color: #fff;
+                outline: none;
+                text-decoration: none;
             }
 
-            header > .menu > .menu-mobile > navbar-inverse {
+            .dl-menuwrapper li.dl-back > a {
+                padding-left: 30px;
+                background: rgba(0,0,0,0.1);
             }
 
-            header > .menu > .menu-mobile > navbar > .container-fluid {
-                padding: 0;
+            .dl-menuwrapper li.dl-back:after,
+            .dl-menuwrapper li > a:not(:only-child):after {
+                position: absolute;
+                top: 0;
+                line-height: 50px;
+                font-family: 'icomoon';
+                speak: none;
+                -webkit-font-smoothing: antialiased;
+                content: "\e000";
             }
 
-                header > .menu > .menu-mobile > navbar > .container-fluid > navbar-header {
-                    border: none;
-                }
-
-            header > .menu > .menu-mobile > .navbar-inverse .navbar-toggle {
-                border-color: rgb(255, 255, 255) !important;
+            .dl-menuwrapper li.dl-back:after {
+                left: 10px;
+                color: rgba(212,204,198,0.3);
+                -webkit-transform: rotate(180deg);
+                transform: rotate(180deg);
             }
 
-                header > .menu > .menu-mobile > .navbar-inverse .navbar-toggle:hover {
-                    background-color: rgb(255, 255, 255);
-                }
-
-                header > .menu > .menu-mobile > .navbar-inverse .navbar-toggle span {
-                }
-
-                header > .menu > .menu-mobile > .navbar-inverse .navbar-toggle:hover span {
-                    background-color: rgb(0, 120, 174);
-                }
-
-            header > .menu > .menu-mobile > .navbar-inverse .navbar-brand {
-                font-family: Roboto-Black;
-                font-size: 2.5em;
-                color: rgb(255, 255, 255);
+            .dl-menuwrapper li > a:after {
+                right: 10px;
+                color: rgba(0,0,0,0.15);
             }
 
-            /*Khung chứa menu*/
-            header > .menu > .menu-mobile > nav > .container-fluid > .navbar-collapse {
-                text-align: left;
-                padding: 0;
-                border-top: solid 1px rgb(255, 255, 255);
+        .dl-menuwrapper .dl-menu {
+            margin: 5px 0 0 0;
+            position: absolute;
+            width: 100%;
+            opacity: 0;
+            pointer-events: none;
+            -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+
+            .dl-menuwrapper .dl-menu.dl-menu-toggle {
+                transition: all 0.3s ease;
             }
 
-                /*Menu tầng 1*/
-                header > .menu > .menu-mobile > nav > .container-fluid > .navbar-collapse > .menu-1 {
-                    list-style: none;
-                    width: 100%;
-                    padding: 0;
-                    margin: 0;
-                }
+            .dl-menuwrapper .dl-menu.dl-menuopen {
+                opacity: 1;
+                pointer-events: auto;
+                -webkit-transform: translateY(0px);
+                transform: translateY(0px);
+            }
 
-                    header > .menu > .menu-mobile > nav > .container-fluid > .navbar-collapse > .menu-1 > li {
-                        list-style: none;
-                        width: 100%;
-                        padding: 0.8em 1em;
-                        border-bottom: solid 0.5px rgb(255, 255, 255);
-                    }
+        /* Hide the inner submenus */
+        .dl-menuwrapper li .dl-submenu {
+            display: none;
+        }
 
-                        header > .menu > .menu-mobile > nav > .container-fluid > .navbar-collapse > .menu-1 > li > a {
-                            font-family: Roboto-Light;
-                            font-size: 1.5em;
-                            color: rgb(255, 255, 255);
-                            background: rgb(0, 120, 174);
-                            padding: 0;
-                        }
+    /* 
+When a submenu is openend, we will hide all li siblings.
+For that we give a class to the parent menu called "dl-subview".
+We also hide the submenu link. 
+The opened submenu will get the class "dl-subviewopen".
+All this is done for any sub-level being entered.
+*/
+    .dl-menu.dl-subview li,
+    .dl-menu.dl-subview li.dl-subviewopen > a,
+    .dl-menu.dl-subview li.dl-subview > a {
+        display: none;
+    }
 
-                            header > .menu > .menu-mobile > nav > .container-fluid > .navbar-collapse > .menu-1 > li > a:hover {
-                                color: rgb(255, 255, 255);
-                            }
+        .dl-menu.dl-subview li.dl-subview,
+        .dl-menu.dl-subview li.dl-subview .dl-submenu,
+        .dl-menu.dl-subview li.dl-subviewopen,
+        .dl-menu.dl-subview li.dl-subviewopen > .dl-submenu,
+        .dl-menu.dl-subview li.dl-subviewopen > .dl-submenu > li {
+            display: block;
+        }
 
-                        /*Menu tầng 2*/
-                        header > .menu > .menu-mobile > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 {
-                            background: rgb(0, 120, 174);
-                            z-index: 2;
-                            width: 100%;
-                            list-style: none;
-                            text-align: left;
-                            padding: 0;
-                            margin: 0;
-                        }
+    /* Dynamically added submenu outside of the menu context */
+    .dl-menuwrapper > .dl-submenu {
+        position: absolute;
+        width: 100%;
+        top: 50px;
+        left: 0;
+        margin: 0;
+    }
 
-                        header > .menu > .menu-mobile > nav > .container-fluid > .navbar-collapse > .menu-1 > li:hover > .menu-2 {
-                        }
+    /* Animation classes for moving out and in */
 
-                        header > .menu > .menu-mobile > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li {
-                            width: 100%;
-                            z-index: 0;
-                            padding: 1em 1em 0.5em 1em;
-                            margin: 0;
-                        }
+    .dl-menu.dl-animate-out-5 {
+        -webkit-animation: MenuAnimOut5 0.4s ease;
+        animation: MenuAnimOut5 0.4s ease;
+    }
 
-                            header > .menu > .menu-mobile > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > a {
-                                background: rgb(0, 120, 174);
-                                font-family: Roboto-Light;
-                                font-size: 1.2em;
-                                color: rgb(255, 255, 255);
-                                padding: 0;
-                                text-transform: uppercase;
-                            }
+    @-webkit-keyframes MenuAnimOut5 {
+        0% {
+        }
 
-                                header > .menu > .menu-mobile > nav > .container-fluid > .navbar-collapse > .menu-1 > li > .menu-2 > li > a:hover {
-                                    background: rgb(0, 120, 174);
-                                    color: rgb(255, 255, 255);
-                                    display: none;
-                                }
+        100% {
+            -webkit-transform: translateY(40%);
+            opacity: 0;
+        }
+    }
+
+    @keyframes MenuAnimOut5 {
+        0% {
+        }
+
+        100% {
+            -webkit-transform: translateY(40%);
+            transform: translateY(40%);
+            opacity: 0;
+        }
+    }
+
+    .dl-menu.dl-animate-in-5 {
+        -webkit-animation: MenuAnimIn5 0.4s ease;
+        animation: MenuAnimIn5 0.4s ease;
+    }
+
+    @-webkit-keyframes MenuAnimIn5 {
+        0% {
+            -webkit-transform: translateY(40%);
+            opacity: 0;
+        }
+
+        100% {
+            -webkit-transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes MenuAnimIn5 {
+        0% {
+            -webkit-transform: translateY(40%);
+            transform: translateY(40%);
+            opacity: 0;
+        }
+
+        100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    .dl-menuwrapper > .dl-submenu.dl-animate-in-5 {
+        -webkit-animation: SubMenuAnimIn5 0.4s ease;
+        animation: SubMenuAnimIn5 0.4s ease;
+    }
+
+    @-webkit-keyframes SubMenuAnimIn5 {
+        0% {
+            -webkit-transform: translateZ(-200px);
+            opacity: 0;
+        }
+
+        100% {
+            -webkit-transform: translateZ(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes SubMenuAnimIn5 {
+        0% {
+            -webkit-transform: translateZ(-200px);
+            transform: translateZ(-200px);
+            opacity: 0;
+        }
+
+        100% {
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            opacity: 1;
+        }
+    }
+
+    .dl-menuwrapper > .dl-submenu.dl-animate-out-5 {
+        -webkit-animation: SubMenuAnimOut5 0.4s ease;
+        animation: SubMenuAnimOut5 0.4s ease;
+    }
+
+    @-webkit-keyframes SubMenuAnimOut5 {
+        0% {
+            -webkit-transform: translateZ(0);
+            opacity: 1;
+        }
+
+        100% {
+            -webkit-transform: translateZ(-200px);
+            opacity: 0;
+        }
+    }
+
+
+    @keyframes SubMenuAnimOut5 {
+        0% {
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            opacity: 1;
+        }
+
+        100% {
+            -webkit-transform: translateZ(-200px);
+            transform: translateZ(-200px);
+            opacity: 0;
+        }
+    }
+
+    /* No JS Fallback */
+    .no-js .dl-menuwrapper .dl-menu {
+        position: relative;
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+
+    .no-js .dl-menuwrapper li .dl-submenu {
+        display: block;
+    }
+
+    .no-js .dl-menuwrapper li.dl-back {
+        display: none;
+    }
+
+    .no-js .dl-menuwrapper li > a:not(:only-child) {
+        background: rgba(0,0,0,0.1);
+    }
+
+        .no-js .dl-menuwrapper li > a:not(:only-child):after {
+            content: '';
+        }
 
     /*Footer*/
     footer {
