@@ -303,6 +303,7 @@ header {
                         }
 
 
+
 /*Footer*/
 footer {
     background: url(../images/footer-bg.png);
@@ -388,10 +389,7 @@ footer {
 @media (min-width: 768px) and (max-width: 991px) {
 
     .fixed {
-        position: fixed;
-        top: 0;
         height: 80px;
-        z-index: 1;
     }
 
     header {
@@ -796,12 +794,9 @@ All this is done for any sub-level being entered.
 /*Giao diện cho màn hình điện thoại*/
 @media (max-width: 767px) {
     .fixed {
-                position: fixed;
-                top: 0;
-                height: 50px;
-                z-index: 1;
-            }
-    
+        height: 50px;
+    }
+
 
     header {
         position: static;
