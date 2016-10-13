@@ -815,7 +815,7 @@
 
     /* Liên hệ với chúng tôi */
     .web-design > .call-us {
-        z-index: 10;
+        z-index: 1;
         margin: -5em 0em;
     }
 
@@ -845,7 +845,7 @@
         width: 90%;
         left: 5%;
         right: 5%;
-        padding: 5em 0em 0em 0em;
+        padding: 5em 0em 6em 0em;
     }
 
         .web-design > .quest > .title {
@@ -891,20 +891,20 @@
 
     /* Nhận tin mới */
     .web-design > .news {
-        z-index: 10;
-        margin: 2em 0em -7em 0em;
+        z-index: 1;
+        margin: -6em 0em;
     }
 
         .web-design > .news > .box {
             border-radius: 0.3em;
             width: 90%;
             left: 5%;
-            right: 5%;
-            padding: 2em 0em 1em 0em;
+            height: 12em;
         }
 
             .web-design > .news > .box > p {
                 font-size: 2em;
+                margin: 0;
             }
 
                 .web-design > .news > .box > p > span {
@@ -914,7 +914,8 @@
                 font-size: 150%;
                 width: 60%;
                 left: 20%;
-                right: 20%;
+                padding: 0.1em 0em;
+
             }
 
     /* Thông tin chúng tôi */

@@ -69,6 +69,7 @@
         background: url(../images/Services/Thietkewebsite/GioiThieu/banner-bg.png) no-repeat;
         height: 100%;
         padding: 0;
+        z-index: 1;
     }
 
         .About-us > .banner > div {
@@ -581,27 +582,13 @@
         }
 
             .About-us > .banner > div > .title {
-                font-size: 190%;
+                font-size: 170%;
+                text-align: center;
             }
 
             .About-us > .banner > div > .line {
                 font-size: 150%;
-            }
-
-            .About-us > .banner > div > ul {
-            }
-
-                .About-us > .banner > div > ul > li {
-                    font-size: 130%;
-                }
-
-                    .About-us > .banner > div > ul > li:before {
-                    }
-
-            .About-us > .banner > div > a {
-                font-size: 120%;
-                padding: 2% 10%;
-                margin: 5% 0% 0% 10%;
+                text-align: justify;
             }
 
     /*Nội dung chính*/
@@ -614,21 +601,6 @@
             width: 90%;
             left: 5%;
         }
-
-            .About-us > .content > div > .row-title {
-                padding: 10% 0% 0% 0%;
-            }
-
-                .About-us > .content > div > .row-title > .title {
-                    font-size: 180%;
-                    text-align: center;
-                    padding: 0;
-                }
-
-                .About-us > .content > div > .row-title > .detail {
-                    font-size: 150%;
-                    padding: 0;
-                }
 
             /*Nội dung*/
             .About-us > .content > div > .row-box {
@@ -645,6 +617,7 @@
                 }
 
                     .About-us > .content > div > .row-box > .text > .title {
+                        font-size: 2em;
                     }
 
                     .About-us > .content > div > .row-box > .text > .detail {
@@ -670,22 +643,22 @@
 
     /* Nhận tin mới */
     .About-us > .news {
-        z-index: 10;
-        margin: -7em 0em;
+        z-index: 1;
+        margin: -6em 0em;
     }
 
         .About-us > .news > .box {
             text-align: center;
             border-radius: 3%;
             padding: 5% 0% 5% 0%;
-            height: 14em;
+            height: 12em;
             width: 90%;
             left: 5%;
             right: 5%;
         }
 
             .About-us > .news > .box > p {
-                font-size: 250%;
+                font-size: 2em;
             }
 
                 .About-us > .news > .box > p > span {
@@ -721,7 +694,7 @@
 
                 .About-us > .info > div > .address > p {
                     font-size: 130%;
-                    padding: 10% 10%;
+                    padding: 10% 0%;
                 }
 
                     .About-us > .info > div > .address > p > span {
@@ -793,8 +766,9 @@
 
                 .About-us > .info > div > .train > p {
                     font-size: 1.3em;
-                    padding: 0em 1.2em;
+                    padding: 0em 1em;
                     margin: 1em 0em 2em 0em;
+                    text-align: justify;
                 }
 
                 .About-us > .info > div > .train > a {

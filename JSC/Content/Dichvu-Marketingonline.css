@@ -907,7 +907,7 @@
 
     /* Liên hệ với chúng tôi */
     .marketing-online > .call-us {
-        z-index: 10;
+        z-index: 1;
         margin: -5em 0em;
     }
 
@@ -983,20 +983,20 @@
 
     /* Nhận tin mới */
     .marketing-online > .news {
-        z-index: 10;
-        margin: 2em 0em -7em 0em;
+        z-index: 1;
+        margin: -6em 0em;
     }
 
         .marketing-online > .news > .box {
             border-radius: 0.3em;
             width: 90%;
             left: 5%;
-            right: 5%;
-            padding: 2em 0em 1em 0em;
+            height: 12em;
         }
 
             .marketing-online > .news > .box > p {
                 font-size: 2em;
+                margin: 0;
             }
 
                 .marketing-online > .news > .box > p > span {
@@ -1006,7 +1006,7 @@
                 font-size: 150%;
                 width: 60%;
                 left: 20%;
-                right: 20%;
+                padding: 0.1em 0em;
             }
 
     /* Thông tin chúng tôi */
