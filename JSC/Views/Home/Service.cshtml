@@ -5,7 +5,7 @@
 
 <div class="service">
     <!--Menu-->
-    <div class="menu hidden-xs hidden-sm col-sm-12 col-md-12 col-lg-12">
+    @*<div class="menu hidden-xs hidden-sm col-sm-12 col-md-12 col-lg-12">
         <p class="col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-2">Dịch vụ</p>
         <ul class="col-md-8 col-lg-8">
             <li class="col-md-3 col-lg-3">
@@ -54,7 +54,7 @@
                 </ul>
             </li>
         </ul>
-    </div>
+    </div>*@
 
     <!--Banner-->
     <div class="banner col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -66,12 +66,16 @@
 
     <!--Nội dung trang-->
     <div class="content col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+        <!--Nút chuyển xuống-->
         <div class="button-next-part">
-            <a class="background" id="next-to-noidungchiase" style="cursor: pointer">
+            <a class="background" id="next-to-noidungdichvu" style="cursor: pointer">
                 <img src="~/images/Homepage/share-arrow-another.png" />
             </a>
         </div>
-        <div class="detail col-xs-12 col-sm-6 col-md-11 col-md-offset-1 col-lg-11 col-lg-offset-1">
+
+        <!--Nội dung-->
+        <div class="detail col-xs-12 col-sm-6 col-md-11 col-md-offset-1 col-lg-11 col-lg-offset-1" id="noidungdichvu">
             <a class="col-xs-12 col-sm-12 col-md-3 col-lg-3" href="@Url.Action("SVThietkewebsite","Home")">
                 <img src="~/images/Services/my-service-icon-1.png" />
             </a>

@@ -33,7 +33,6 @@ body {
     margin: 0;
 }
 
-
 header {
     padding: 0 !important;
     position: absolute;
@@ -60,7 +59,7 @@ header {
                 font-size: 2.7em;
                 color: rgb(0, 120, 174);
                 line-height: 0.8em;
-                margin: 0.5em 0em 0em 0em;
+                margin: 0.5em -1em 0em 0em;
                 padding: 0em 0em 0em 0.3em;
             }
 
@@ -302,7 +301,143 @@ header {
                             left: 0.1em;
                         }
 
+        /*Menu dòng 3 - Chỉ có trên trang dịch vụ*/
+        header > .desktop > .menu-3 {
+            background: url(../images/Services/menu-3.png);
+            padding: 0;
+            width: 100%;
+        }
 
+            header > .desktop > .menu-3 > p {
+                font-family: Roboto-Medium;
+                font-size: 3em;
+                color: white;
+                padding: 0;
+                margin: 0.2em 0em 0.1em 2.7em;
+            }
+
+            header > .desktop > .menu-3 > ul {
+                list-style: none;
+                padding: 0;
+                margin: 1em 0em 0.5em 0em;
+            }
+
+                header > .desktop > .menu-3 > ul > li {
+                    width: 14.5em;
+                    padding: 0;
+                    margin-right: 1em;
+                }
+
+                    header > .desktop > .menu-3 > ul > li > a {
+                        font-family: Roboto-Bold;
+                        font-size: 1.2em;
+                        color: white;
+                        text-transform: uppercase;
+                        display: block;
+                        background: linear-gradient(to right,rgba(0,135,189,1) 0,rgba(0,135,189,1) 50%,rgba(0,170,238,1) 50%,rgba(0,170,238,1) 100%) 0 0/200% 100%;
+                        text-shadow: 0 -1px 0 rgb(0, 76, 110);
+                        border: 1px solid #00618a;
+                        border-color: rgb(0, 91, 129) rgb(0, 111, 156) rgb(0, 97, 138) rgb(0, 100, 141);
+                        box-shadow: 1px 1px 0 0 #008fcd;
+                        padding: 12px 19px 11px;
+                        position: relative;
+                        overflow: hidden;
+                        transition: all .3s linear;
+                    }
+
+                        header > .desktop > .menu-3 > ul > li > a:hover {
+                            text-decoration: none;
+                            color: white;
+                            background-position: -100% 0;
+                        }
+
+                        header > .desktop > .menu-3 > ul > li > a:before {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 5px;
+                            height: 100%;
+                            background: #0ae;
+                            content: "";
+                            transition: all .2s linear;
+                        }
+
+                    /* Phần menu con */
+                    header > .desktop > .menu-3 > ul > li > ul {
+                        display: none;
+                        background: white;
+                        list-style: none;
+                        box-shadow: 0 2px 4px rgb(90, 96, 99);
+                        margin-left: 1px;
+                        padding-top: 0.7em;
+                        padding-bottom: 1.3em;
+                        padding-right: 1em;
+                        width: 20em;
+                        transition: all .3s linear;
+                    }
+
+                    header > .desktop > .menu-3 > ul > li:hover > ul {
+                        display: block;
+                        position: absolute;
+                        z-index: 20;
+                        transition: all .3s linear;
+                    }
+
+                    header > .desktop > .menu-3 > ul > li > ul > li {
+                        margin-left: -1.5em;
+                        margin-top: 0.3em;
+                    }
+
+                        header > .desktop > .menu-3 > ul > li > ul > li > a {
+                            font-size: 1.2em;
+                            color: rgb(0, 157, 220);
+                            text-decoration: none;
+                            transition: all .3s linear;
+                        }
+
+                            header > .desktop > .menu-3 > ul > li > ul > li > a:before {
+                                content: "»";
+                                display: inline-block;
+                                font-size: 1.4em;
+                                margin-right: 0.3em;
+                            }
+
+                            header > .desktop > .menu-3 > ul > li > ul > li > a:hover {
+                                color: rgb(144, 196, 4);
+                            }
+
+        /*Menu dòng 4 - Chỉ có trên các trang con của dịch vụ*/
+        header > .desktop > .menu-4 {
+            box-shadow: 0 3px 3px rgba(132,136,138,.3);
+            padding: 0;
+        }
+
+            header > .desktop > .menu-4 > ul {
+                list-style: none;
+                display: inline-flex;
+                padding: 0;
+            }
+
+                header > .desktop > .menu-4 > ul > li {
+                    text-align: center;
+                    padding-top: 1em;
+                    padding-right: 3.5em;
+                    padding-left: 2em;
+                }
+
+                    header > .desktop > .menu-4 > ul > li > a {
+                        font-family: Roboto-Regular;
+                        font-size: 1.2em;
+                        color: rgb(0,120,174);
+                        text-transform: uppercase;
+                        line-height: 0;
+                        text-decoration: none;
+                        transition: color .3s;
+                    }
+
+                        header > .desktop > .menu-4 > ul > li > a:hover {
+                            color: rgb(152, 200, 22);
+                        }
 
 /*Footer*/
 footer {

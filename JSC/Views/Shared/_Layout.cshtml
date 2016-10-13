@@ -25,25 +25,30 @@
 
     <style>
         .fixed {
-                position: fixed;
-                top: 0;
-                z-index: 1;
-            }
+            position: fixed;
+            top: 0;
+            z-index: 1;
+        }
     </style>
 
 </head>
 <body>
     <header class="header col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <!--Giao diện desktop-->
-        <div class="desktop hidden-xs hidden-sm col-md-11 col-md-offset-1 col-lg-11 col-lg-offset-1">
-            <a href="#" class="logo col-md-5 col-lg-5">
+        <div class="desktop hidden-xs hidden-sm col-md-12 col-lg-12">
+
+            <!--Logo-->
+            <a href="#" class="logo col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1">
                 <img src="~/images/logo-jsc.png" class="col-md-2 col-lg-2" />
                 <p class="col-md-10 col-lg-10">
                     Kết nối trẻ JSC <br />
                     <span>Cùng hợp tác - Cùng thành công</span>
                 </p>
             </a>
+
+            <!--Menu-->
             <div class="menu col-md-7 col-lg-7">
+
                 <!--Dòng menu 1-->
                 <div class="menu-1 col-md-12 col-lg-12">
                     <ul>
@@ -60,6 +65,7 @@
                         091.415.6668
                     </a>
                 </div>
+
                 <!--Dòng menu 2-->
                 <ul class="menu-2 col-md-12 col-lg-12">
                     <li><a href="@Url.Action("Index","Home")">Trang chủ</a></li>

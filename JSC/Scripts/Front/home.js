@@ -1,6 +1,6 @@
 ﻿/*Những dự án tiêu biểu*/
 $(function () {
-    $("#next-to-nhungduantieubieu").click(function () {                                                             /*Click nút xuống nội dung chia sẻ*/
+    $("#next-to-nhungduantieubieu").click(function () {                                                             /*Click nút xuống dự án tiêu biểu*/
         $('html, body').animate({
             scrollTop: $('#duantieubieu').offset().top
         }, 500);
@@ -13,7 +13,7 @@ $(".hover-project").hover(function () {
 
 
 
-/*JS cho another-service (Dịch vụ khác)*/
+/*another-service (Dịch vụ khác)*/
 $(function () {
     var swap = true;
     $('.another-close-button').click(function () {
@@ -28,7 +28,7 @@ $(function () {
     });
 });
 
-/*JS cho Nội dung chia sẻ*/
+/*Nội dung chia sẻ*/
 $(function () {
     $("#next-to-noidungchiase").click(function () {                                                                 /*Click nút xuống nội dung chia sẻ*/
         $('html, body').animate({

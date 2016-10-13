@@ -80,55 +80,25 @@
             <div class="menu-3 col-sm-12 col-md-12 col-lg-12">
                 <p class="col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-2">Dịch vụ</p>
                 <ul class="col-md-8 col-lg-8">
-                    <li class="col-md-3 col-lg-3">
-                        <a href="@Url.Action("SvThietkewebsite","Home")">Thiết kế website</a>
-                        <ul>
-                            <li><a href="@Url.Action("WsNhahang","Home")">Thiết kế website nhà hàng</a></li>
-                            <li><a href="@Url.Action("WsKhachsan","Home")">Thiết kế website khách sạn</a></li>
-                            <li><a href="@Url.Action("WsSpa","Home")">Thiết kế website Spa - Beauty</a></li>
-                            <li><a href="@Url.Action("WsBanhang","Home")">Thiết kế website bán hàng</a></li>
-                            <li><a href="@Url.Action("WsTintuc","Home")">Thiết kế website tin tức</a></li>
-                            <li><a href="@Url.Action("WsCongty","Home")">Thiết kế website công ty</a></li>
-                            <li><a href="@Url.Action("WsDichvu","Home")">Thiết kế website dịch vụ</a></li>
-                        </ul>
-                    </li>
-                    <li class="col-md-3 col-lg-3">
-                        <a href="@Url.Action("SvThietkephanmem","Home")">Thiết kế phần mềm</a>
-                        <ul>
-                            <li><a href="@Url.Action("DsNhahang","Home")">Phần mềm quản lý nhà hàng</a></li>
-                            <li><a href="@Url.Action("DsKaraoke","Home")">Phần mềm quản lý Karaoke</a></li>
-                            <li><a href="@Url.Action("DsBanhang","Home")">Phần mềm quản lý bán hàng</a></li>
-                            <li><a href="@Url.Action("DsNhansu","Home")">Phần mềm quản lý nhân sự</a></li>
-                            <li><a href="@Url.Action("DsDoanvien","Home")">Phần mềm quản lý Đoàn viên</a></li>
-                            <li><a href="@Url.Action("DsInan","Home")">Phần mềm hỗ trợ in ấn</a></li>
-                        </ul>
-                    </li>
-                    <li class="col-md-3 col-lg-3">
-                        <a href="@Url.Action("SvMarketingonline","Home")">Marketing Online</a>
-                        <ul>
-                            <li><a href="@Url.Action("MoQuantriweb","Home")">Quản trị website</a></li>
-                            <li><a href="@Url.Action("MoQuantrifanpage","Home")">Quản trị fanpage facebook</a></li>
-                            <li><a href="@Url.Action("MoGoogleadwords","Home")">Google Adwords</a></li>
-                            <li><a href="@Url.Action("MoFacebookadwords","Home")">Facebook Adword</a></li>
-                            <li><a href="@Url.Action("MoSEOweb","Home")">SEO website</a></li>
-                            <li><a href="@Url.Action("MoSEOfanpage","Home")">SEO fanpage</a></li>
-                        </ul>
-                    </li>
-                    <li class="col-md-3 col-lg-3">
-                        <a href="@Url.Action("SvDichvukhac","Home")">Dịch vụ khác</a>
-                        <ul>
-                            <li><a href="@Url.Action("OsPoster","Home")">Thiết kế poster, banner, ảnh</a></li>
-                            <li><a href="@Url.Action("OsCard","Home")">Thiết kế card visit, biển hiệu</a></li>
-                            <li><a href="@Url.Action("OsBangron","Home")">Thiết kế băng rôn, khẩu ngữ</a></li>
-                            <li><a href="@Url.Action("OsDaotao","Home")">Đào tạo lập trình</a></li>
-                            <li><a href="@Url.Action("OsCungcap","Home")">Cung cấp thiết bị bán hàng</a></li>
-                            <li><a href="@Url.Action("OsTochuc","Home")">Tổ chức sự kiện</a></li>
-                        </ul>
-                    </li>
+                    <li class="col-md-3 col-lg-3"><a href="@Url.Action("SvThietkewebsite","Home")">Thiết kế website</a></li>
+                    <li class="col-md-3 col-lg-3"><a href="@Url.Action("SvThietkephanmem","Home")">Thiết kế phần mềm</a></li>
+                    <li class="col-md-3 col-lg-3"><a href="@Url.Action("SvMarketingonline","Home")">Marketing Online</a></li>
+                    <li class="col-md-3 col-lg-3"><a href="@Url.Action("SvDichvukhac","Home")">Dịch vụ khác</a></li>
                 </ul>
             </div>
 
-
+            <!--Dòng menu 4 - Menu thêm cho các trang con của phần dịch vụ-->
+            <div class="menu-4 col-md-12 col-lg-12">
+                <ul class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+                    <li><a href="@Url.Action("WsNhahang","Home")">Website<br />nhà hàng</a></li>
+                    <li><a href="@Url.Action("WsKhachsan","Home")">Website<br />khác sạn</a></li>
+                    <li><a href="@Url.Action("WsSpa","Home")">Website<br />Spa - Beauty</a></li>
+                    <li><a href="@Url.Action("WsBanhang","Home")">Website<br />bán hàng</a></li>
+                    <li><a href="@Url.Action("WsTintuc","Home")">Website<br />tin tức</a></li>
+                    <li><a href="@Url.Action("WsCongty","Home")">Website<br />công ty</a></li>
+                    <li><a href="@Url.Action("WsDichvu","Home")">Website<br />dịch vụ</a></li>
+                </ul>
+            </div>
         </div>
 
         <!--Giao diện mobile & tablet-->
@@ -190,7 +160,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <script src="~/Scripts/Front/jquery.dlmenu.js"></script>
-    <script src="~/Scripts/Front/dichvu.js"></script>
+    <script src="~/Scripts/Front/thietkewebsite-trangcon.js"></script>
 
     <script>
         $(function () {

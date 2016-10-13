@@ -102,6 +102,8 @@
         background: url(../images/Services/Thietkewebsite/WsNhahang/banner-bg.png) no-repeat;
         height: 29em;
         padding: 0;
+        box-shadow: 0 3px 3px rgba(132,136,138,.3);
+        z-index: 2;
     }
 
         .website-design > .banner > div {
@@ -167,6 +169,7 @@
         /*Nút chuyển xuống phần tiếp theo*/
         .website-design > .content > .button-next-part {
             margin-top: -3em;
+            z-index: 3;
         }
 
             .website-design > .content > .button-next-part > a {
@@ -180,6 +183,7 @@
                 transition: all .3s;
                 margin: 0px auto;
                 cursor: pointer;
+                box-shadow: 0 3px 3px rgba(132,136,138,.3);
             }
 
                 .website-design > .content > .button-next-part > a:hover {

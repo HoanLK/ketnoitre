@@ -312,9 +312,11 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="fonts\icomoon.ttf" />
     <None Include="Properties\PublishProfiles\KNT.pubxml" />
+    <Content Include="Scripts\Front\dichvu.js" />
     <Content Include="Scripts\Front\home.js" />
     <Content Include="Scripts\Front\jquery.dlmenu.js" />
     <Content Include="Scripts\Front\modernizr.custom.js" />
+    <Content Include="Scripts\Front\thietkewebsite-trangcon.js" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
@@ -380,6 +382,7 @@
     <Content Include="Views\Home\OsCungcap.cshtml" />
     <Content Include="Views\Home\OsTochuc.cshtml" />
     <Content Include="Views\Shared\_Layout1.cshtml" />
+    <Content Include="Views\Shared\_Layout2.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

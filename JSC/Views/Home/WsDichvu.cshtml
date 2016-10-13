@@ -1,35 +1,11 @@
 ﻿
 @{
     ViewBag.Title = "WsDichvu";
-    Layout = "~/Views/Shared/_Layout1.cshtml";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
 }
 
 <div class="website-design">
-    <!--Menu Dịch vụ-->
-    <div class="menu hidden-xs hidden-sm col-md-12 col-lg-12">
-        <p class="col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1">Dịch vụ</p>
-        <ul class="col-md-8 col-lg-8">
-            <li class="col-md-3 col-lg-3"><a href="@Url.Action("SVThietkewebsite","Home")">Thiết kế website</a></li>
-            <li class="col-md-3 col-lg-3"><a href="@Url.Action("SVThietkephanmem","Home")">Thiết kế phần mềm</a></li>
-            <li class="col-md-3 col-lg-3"><a href="@Url.Action("SVMarketingonline","Home")">Marketing Online</a></li>
-            <li class="col-md-3 col-lg-3"><a href="@Url.Action("SVDichvukhac","Home")">Dịch vụ khác</a></li>
-        </ul>
-    </div>
-
-    <!--Menu chi tiết-->
-    <div class="menu-2 hidden-xs hidden-sm col-md-12 col-lg-12">
-        <ul class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
-            <li><a href="@Url.Action("WsNhahang","Home")">Website<br />nhà hàng</a></li>
-            <li><a href="@Url.Action("WsKhachsan","Home")">Website<br />khách sạn</a></li>
-            <li><a href="@Url.Action("WsSpa","Home")">Website<br />Spa - Beauty</a></li>
-            <li><a href="@Url.Action("WsBanhang","Home")">Website<br />bán hàng</a></li>
-            <li><a href="@Url.Action("WsTintuc","Home")">Website<br />tin tức</a></li>
-            <li><a href="@Url.Action("WsCongty","Home")">Website<br />công ty</a></li>
-            <li><a href="@Url.Action("WsDichvu","Home")">Website<br />dịch vụ</a></li>
-        </ul>
-    </div>
-
-    <!--Banner-->
+   <!--Banner-->
     <div class="banner col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <div class="col-xs-12 col-sm-6 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
             <p class="title">Thiết kế website nhà hàng</p>
@@ -48,12 +24,12 @@
 
         <!--Nút chuyển phần-->
         <div class="button-next-part hidden-xs hidden-sm col-md-12 col-lg-12">
-            <a class="background" id="next-to-noidungchiase">
+            <a class="background" id="next-to-noidungchinh">
                 <img src="~/images/Homepage/share-arrow-another.png" />
             </a>
         </div>
 
-        <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+        <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1" id="noidungchinh">
 
             <!--Từ row1 -> row4: Các đoạn nội dung-->
             <div class="row-title">
